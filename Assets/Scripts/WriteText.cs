@@ -12,6 +12,8 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
     public List<Text> text;
     private string message;
     public int clickCnt=0;
+    public int nextClick = 0;
+    public string nextScene;
     public float speed;
 
     Coroutine col;
@@ -51,9 +53,9 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         clickCnt++;
-        if (clickCnt == 8)
+        if (clickCnt == nextClick)
         {
-            SceneManager.LoadScene("Quiz_Jahwa");
+            SceneManager.LoadScene(nextScene);
         }
         else
         {

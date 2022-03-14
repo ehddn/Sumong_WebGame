@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/JahwaGhan/Explain_Jahwa.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/JahwaGhan/Quiz_Jahwa.unity
     guid: b647d9a879fd37e46a8d88b2caa2a964
   - enabled: 1
     path: Assets/Scenes/Puzzle.unity
     guid: 10cee0dcfc260b6489f8dd2da46902f2
+  - enabled: 1
+    path: Assets/Scenes/FirstGonghwak/Quiz_FirstGonghak.unity
+    guid: 8e0a0201c68121144812ed91b49a864f
+  - enabled: 1
+    path: Assets/Scenes/FirstGonghwak/Explain_FirstGonghak.unity
+    guid: e2b583f180a47074d80cf35c96ed3704
   m_configObjects: {}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-
+using UnityEngine.SceneManagement;
 
 public class WriteQuizText : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class WriteQuizText : MonoBehaviour
     public List<int> answerList;
     private string message;
     public int quizCnt = 0;
+    public string nextScene;
     public bool isQuiz=false;
     public bool isRight = false;
     public float speed;
@@ -60,6 +61,7 @@ public class WriteQuizText : MonoBehaviour
     {
         yield return new WaitForSeconds(delayTime);
         StartCoroutine(Typing(textBox, message, speed, quizCnt));
+        
     }
 
     public void ClickBtn(int answer)
@@ -70,32 +72,37 @@ public class WriteQuizText : MonoBehaviour
         {
             Debug.Log("정답!");
             isRight = true;
-            quizCnt++;
             resultBoard.SetActive(true);
+            quizCnt++;
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
             btn4.UpdateText(quizCnt);
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+           
+
 
         }
         else
         {
             Debug.Log("오답!");
             isRight = false;
-            quizCnt++;
             resultBoard.SetActive(true);
+            quizCnt++;
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
             btn4.UpdateText(quizCnt);
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+           
         }
         
 
 
   
     }
+
+    
 
 
 }

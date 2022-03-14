@@ -10,7 +10,6 @@ public class QuizBtn : MonoBehaviour
     public Text textBox;
     public List<string> text;
     WriteQuizText quizText;
-    QuizController controller;
 
 
     // Start is called before the first frame update

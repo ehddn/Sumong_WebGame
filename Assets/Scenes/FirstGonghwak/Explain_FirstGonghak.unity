@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 1050115164}
   - component: {fileID: 1050115163}
   - component: {fileID: 1050115162}
-  - component: {fileID: 1050115161}
   m_Layer: 5
   m_Name: Main
   m_TagString: Untagged
@@ -309,18 +308,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1050115161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050115160}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9081ec4c21183f743ad216ff1ec3b86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1050115162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,8 +595,12 @@ MonoBehaviour:
   text:
   - {fileID: 2761735493896750500, guid: 9ddcb8698fda3034a88413a74ab351cd, type: 3}
   - {fileID: 2761735493896750500, guid: 73394e6ddbd035e438a2c50731a060cd, type: 3}
-  - {fileID: 2165517897707384560, guid: 5c63b9eb0c848344190cb42aa2001bc7, type: 3}
+  - {fileID: 2761735493896750500, guid: 1ae99c4474b6a3f4dacd2fa51eb601bc, type: 3}
+  - {fileID: 2761735493896750500, guid: c1406c21e034a6c439f3807eca2b15a4, type: 3}
+  - {fileID: 2761735493896750500, guid: 649338bd71662204eb838b60350279e0, type: 3}
   clickCnt: 0
+  nextClick: 10
+  nextScene: Quiz_FirstGonghak
   speed: 0.05
 --- !u!114 &1370670967
 MonoBehaviour:

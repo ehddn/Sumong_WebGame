@@ -518,8 +518,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3200, y: 1800}
+  m_AnchoredPosition: {x: 1.7, y: -20}
+  m_SizeDelta: {x: 3238.5, y: 2096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332495064
 MonoBehaviour:
@@ -578,6 +578,8 @@ MonoBehaviour:
   - {fileID: 2165517897707384560, guid: 5c63b9eb0c848344190cb42aa2001bc7, type: 3}
   - {fileID: 2165517897707384560, guid: 94a9f4ee491c3fe4a85663c1fc41ac72, type: 3}
   clickCnt: 0
+  nextClick: 8
+  nextScene: Quiz_Jahwa
   speed: 0.05
 --- !u!1 &1760896153
 GameObject:
@@ -658,11 +660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4
+      value: -4.93
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.32
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.z
