@@ -46,8 +46,7 @@ public class WriteQuizText : MonoBehaviour
         
     }
     IEnumerator Typing(Text textBox, string message, float speed, int QuizCnt)
-    {
-        
+    {    
         {
             message = text[quizCnt].text;
             for (int i = 0; i < message.Length; i++)
@@ -55,8 +54,10 @@ public class WriteQuizText : MonoBehaviour
                 textBox.text = message.Substring(0, i + 1);
                 yield return new WaitForSeconds(speed);
             }
+            LoadnextScene();
         }
     }
+
     IEnumerator delay(Text textBox, string message, float speed, int QuizCnt, float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
@@ -74,7 +75,7 @@ public class WriteQuizText : MonoBehaviour
             isRight = true;
             resultBoard.SetActive(true);
             quizCnt++;
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,3.0f));
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
@@ -89,7 +90,7 @@ public class WriteQuizText : MonoBehaviour
             isRight = false;
             resultBoard.SetActive(true);
             quizCnt++;
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,3.0f));
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
@@ -100,6 +101,13 @@ public class WriteQuizText : MonoBehaviour
 
 
   
+    }
+    public void LoadnextScene()
+    {
+        if(quizCnt==4)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
     }
 
     
