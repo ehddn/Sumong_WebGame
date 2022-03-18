@@ -16,6 +16,7 @@ public class WriteQuizText : MonoBehaviour
     public bool isQuiz=false;
     public bool isRight = false;
     public float speed;
+    public int lastQuiz;
 
 
     //정답 버튼
@@ -54,13 +55,14 @@ public class WriteQuizText : MonoBehaviour
                 textBox.text = message.Substring(0, i + 1);
                 yield return new WaitForSeconds(speed);
             }
-            LoadnextScene();
+            
         }
     }
 
     IEnumerator delay(Text textBox, string message, float speed, int QuizCnt, float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
+        LoadnextScene();
         StartCoroutine(Typing(textBox, message, speed, quizCnt));
         
     }
@@ -75,7 +77,9 @@ public class WriteQuizText : MonoBehaviour
             isRight = true;
             resultBoard.SetActive(true);
             quizCnt++;
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,3.0f));
+            
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
@@ -90,7 +94,9 @@ public class WriteQuizText : MonoBehaviour
             isRight = false;
             resultBoard.SetActive(true);
             quizCnt++;
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,3.0f));
+            
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
             btn3.UpdateText(quizCnt);
@@ -104,7 +110,7 @@ public class WriteQuizText : MonoBehaviour
     }
     public void LoadnextScene()
     {
-        if(quizCnt==4)
+        if(quizCnt==lastQuiz)
         {
             SceneManager.LoadScene(nextScene);
         }

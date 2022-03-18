@@ -1274,9 +1274,11 @@ MonoBehaviour:
   - {fileID: 2165517897707384560, guid: b738c735504002941bafee58d940cbf9, type: 3}
   answerList: 03000000020000000200000004000000
   quizCnt: 0
+  nextScene: 
   isQuiz: 0
   isRight: 0
   speed: 0.05
+  lastQuiz: 4
   resultBoard: {fileID: 435372067}
 --- !u!114 &1681580921
 MonoBehaviour:
