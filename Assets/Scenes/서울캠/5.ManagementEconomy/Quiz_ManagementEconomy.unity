@@ -417,11 +417,12 @@ MonoBehaviour:
   - {fileID: 492817334904591758, guid: 6f50d73486e7ed84792376348aa911c8, type: 3}
   answerList: 0100000004000000020000000100000000000000
   quizCnt: 0
-  nextScene: Explain_FirstGonghak
+  nextScene: Seoul
   isQuiz: 0
   isRight: 0
   speed: 0.05
   lastQuiz: 4
+  campus: Seoul
   resultBoard: {fileID: 441986208}
 --- !u!114 &311113067
 MonoBehaviour:

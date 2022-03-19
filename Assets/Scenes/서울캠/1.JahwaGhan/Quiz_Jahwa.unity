@@ -825,6 +825,7 @@ MonoBehaviour:
   - "\uACF5\uACF5\uC778\uC7AC\uD559\uBD80"
   - "\uC9C0\uC801\uC7AC\uC0B0\uC804\uACF5"
   - N
+  - 0
 --- !u!1 &605690294
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +979,7 @@ MonoBehaviour:
   - "\uAC00\uC815\uB3C4\uC6C0\uD559"
   - "\uC9C0\uC801\uC7AC\uC0B0\uC804"
   - M
+  - 0
 --- !u!1 &702734108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1217,7 @@ MonoBehaviour:
   - "\uAC00\uC871\uBCF5\uC9C0\uD559\uACFC"
   - "\uD589\uC815\uD559\uBD80"
   - F
+  - 0
 --- !u!1 &1681580918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,13 +1275,15 @@ MonoBehaviour:
   - {fileID: 2165517897707384560, guid: ab5fd40bf84c42a469b1362efe9730c2, type: 3}
   - {fileID: 2165517897707384560, guid: 38e3b4af872c95b4d8dda0e39d74374c, type: 3}
   - {fileID: 2165517897707384560, guid: b738c735504002941bafee58d940cbf9, type: 3}
-  answerList: 03000000020000000200000004000000
+  - {fileID: 2165517897707384560, guid: b738c735504002941bafee58d940cbf9, type: 3}
+  answerList: 0300000002000000020000000400000000000000
   quizCnt: 0
-  nextScene: 
+  nextScene: Seoul
   isQuiz: 0
   isRight: 0
   speed: 0.05
   lastQuiz: 4
+  campus: Seoul
   resultBoard: {fileID: 435372067}
 --- !u!114 &1681580921
 MonoBehaviour:
@@ -1719,6 +1724,14 @@ PrefabInstance:
     - target: {fileID: 7020039902533128546, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: m_Name
       value: Answer1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
+      propertyPath: text.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
+      propertyPath: text.Array.data[4]
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}

@@ -261,6 +261,7 @@ MonoBehaviour:
   nextClick: 4
   nextScene: Quiz_Walhaegwan
   speed: 0.05
+  campus: Seoul
 --- !u!114 &552210543
 MonoBehaviour:
   m_ObjectHideFlags: 0

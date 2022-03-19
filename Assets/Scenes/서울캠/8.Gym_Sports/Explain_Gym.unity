@@ -578,8 +578,9 @@ MonoBehaviour:
   - {fileID: 6382594530433068023, guid: 9a1d756d72f665e4bb9c9c30bf1b15c3, type: 3}
   clickCnt: 0
   nextClick: 4
-  nextScene: 
+  nextScene: Seoul
   speed: 0.05
+  campus: Seoul
 --- !u!114 &1877660874
 MonoBehaviour:
   m_ObjectHideFlags: 0

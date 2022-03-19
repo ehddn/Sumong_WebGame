@@ -18,6 +18,7 @@ public class WriteQuizText : MonoBehaviour
     public float speed;
     public int lastQuiz;
 
+    public string campus;
 
     //정답 버튼
     QuizBtn btn1;
@@ -76,7 +77,11 @@ public class WriteQuizText : MonoBehaviour
             Debug.Log("정답!");
             isRight = true;
             resultBoard.SetActive(true);
-            quizCnt++;
+
+            if (quizCnt != lastQuiz)
+            {
+                quizCnt++;
+            }
             
             col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
             
@@ -93,8 +98,12 @@ public class WriteQuizText : MonoBehaviour
             Debug.Log("오답!");
             isRight = false;
             resultBoard.SetActive(true);
-            quizCnt++;
-            
+
+            if (quizCnt != lastQuiz)
+            {
+                quizCnt++;
+            }
+
             col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
             
             btn1.UpdateText(quizCnt);
@@ -112,6 +121,23 @@ public class WriteQuizText : MonoBehaviour
     {
         if(quizCnt==lastQuiz)
         {
+            GameManager.gameManager.seoul_stage++;
+            GameManager.gameManager.cheonan_stage++;
+
+            if (campus == "Seoul" && GameManager.gameManager.seoul_stage == 9)
+            {
+                GameManager.gameManager.seoul_stage = 0;
+                GameManager.gameManager.cheonan_stage = 0;
+                SceneManager.LoadScene(nextScene);
+            }
+            else if (campus == "Cheonan" && GameManager.gameManager.cheonan_stage == 7)
+            {
+                GameManager.gameManager.seoul_stage = 0;
+                GameManager.gameManager.cheonan_stage = 0;
+                SceneManager.LoadScene(nextScene);
+                //result Scene
+            }
+
             SceneManager.LoadScene(nextScene);
         }
     }

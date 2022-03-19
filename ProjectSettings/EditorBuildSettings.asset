@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/\uB9F5/Seoul.unity"
+    guid: a5372bf6ab0fc8d41b49f83f9cf5c5a5
+  - enabled: 1
+    path: "Assets/Scenes/\uB9F5/Cheonan.unity"
+    guid: b6d2f5cff3a6a214ea28f9ab26c8c67b
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/1.JahwaGhan/Explain_Jahwa.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,28 +20,40 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Puzzle.unity
     guid: 10cee0dcfc260b6489f8dd2da46902f2
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/2.FirstGonghwak/Quiz_FirstGonghak.unity"
     guid: 8e0a0201c68121144812ed91b49a864f
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/2.FirstGonghwak/Explain_FirstGonghak.unity"
     guid: e2b583f180a47074d80cf35c96ed3704
-  - enabled: 0
+  - enabled: 1
+    path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/3.StudentUnion/Explain_studentUnion.unity"
+    guid: e28e27959532f3e4baffeff95022c250
+  - enabled: 1
+    path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/4.Haksul/Explain_Haksul.unity"
+    guid: 1171f5d1ff14afa4fb05c846d9a23d25
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/5.ManagementEconomy/Explain_ManagementEconomy.unity"
     guid: a1a79cdef0d34764ab5686e306947f0a
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/5.ManagementEconomy/Quiz_ManagementEconomy.unity"
     guid: f3cad40bb600190498026f675e0c4c39
-  - enabled: 0
+  - enabled: 1
+    path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/6.UniversityCommandCenter/Explain_UnivCommandCenter.unity"
+    guid: 2cf726b3bc8100b49a8a4b2fd284be31
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/7.SabumDae/Explain_Sabum.unity"
     guid: 5f806f71d91e3844aac8ad5078315bca
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/7.SabumDae/Quiz_Sabum.unity"
     guid: 33a90d81d72ce8447b5f6d1beebc915a
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/8.Gym_Sports/Explain_Gym.unity"
     guid: 26cd5b3ed06fbc24f84bc76a4b73e90b
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/9.Walhaegwan/Explain_Walhaegwan.unity"
     guid: adde11a82d73af140bc959329cbbc5ba
+  - enabled: 1
+    path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/9.Walhaegwan/Quiz_Walhaegwan.unity"
+    guid: 18ab9c91ab6cd054e9d592e79e341aea
   m_configObjects: {}

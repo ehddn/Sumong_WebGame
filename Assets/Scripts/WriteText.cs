@@ -16,6 +16,8 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
     public string nextScene;
     public float speed;
 
+    public string campus;
+
     Coroutine col;
 
     // Start is called before the first frame update
@@ -55,7 +57,31 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
         clickCnt++;
         if (clickCnt == nextClick)
         {
-            SceneManager.LoadScene(nextScene);
+            if(nextScene == "Seoul" || nextScene == "Cheonan")
+            {
+                GameManager.gameManager.seoul_stage++;
+                GameManager.gameManager.cheonan_stage++;
+
+                if (campus == "Seoul" && GameManager.gameManager.seoul_stage == 9)
+                {
+                    GameManager.gameManager.seoul_stage = 0;
+                    GameManager.gameManager.cheonan_stage = 0;
+                    SceneManager.LoadScene(nextScene);
+                }
+                else if (campus == "Cheonan" && GameManager.gameManager.cheonan_stage == 7)
+                {
+                    GameManager.gameManager.seoul_stage = 0;
+                    GameManager.gameManager.cheonan_stage = 0;
+                    SceneManager.LoadScene(nextScene);
+                    //result Scene
+                }
+
+                SceneManager.LoadScene(nextScene);
+            }
+            else
+            {
+                SceneManager.LoadScene(nextScene);
+            }
         }
         else
         {

@@ -394,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[4]
-      value: "\uAD6D\uAC00\uC548\uBCF4\uD559\uACFC"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
@@ -539,13 +539,15 @@ MonoBehaviour:
   - {fileID: 3839105792594202785, guid: 5eb4d9f1330044d4ca159af6e57a0b98, type: 3}
   - {fileID: 3839105792594202785, guid: b94fb975c732fab49bfdad9340620647, type: 3}
   - {fileID: 3839105792594202785, guid: 4b220ba0563c2e8439dd776cc7d7e48d, type: 3}
+  - {fileID: 3839105792594202785, guid: 4b220ba0563c2e8439dd776cc7d7e48d, type: 3}
   answerList: 0400000002000000040000000100000001000000
   quizCnt: 0
-  nextScene: Explain_Walhaegwan
+  nextScene: Cheonan
   isQuiz: 0
   isRight: 0
   speed: 0.05
   lastQuiz: 4
+  campus: Seoul
   resultBoard: {fileID: 1883358947}
 --- !u!114 &860682954
 MonoBehaviour:
@@ -710,7 +712,7 @@ MonoBehaviour:
   - "\uACBD\uC0AC\uAC00 \uC2EC\uAC01\uD55C"
   - N
   - "\uC0DD\uD65C\uC608\uC220\uD559\uACFC"
-  - "\uC0DD\uD65C\uC608\uC220\uD559\uACFC"
+  - 
 --- !u!114 &1154347423
 MonoBehaviour:
   m_ObjectHideFlags: 0

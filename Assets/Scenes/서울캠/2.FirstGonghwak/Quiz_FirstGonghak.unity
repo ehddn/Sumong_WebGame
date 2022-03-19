@@ -486,13 +486,15 @@ MonoBehaviour:
   - {fileID: 2761735493896750500, guid: 97d481a5673c7ef48a6798ebc56e9ce2, type: 3}
   - {fileID: 2761735493896750500, guid: 46f34cf7c94dd144fa34a4d19872964c, type: 3}
   - {fileID: 2761735493896750500, guid: 5a0ee80558c159346ba04af8014f815b, type: 3}
-  answerList: 0200000004000000010000000300000003000000
+  - {fileID: 2761735493896750500, guid: 5a0ee80558c159346ba04af8014f815b, type: 3}
+  answerList: 0200000004000000010000000300000000000000
   quizCnt: 0
-  nextScene: Explain_FirstGonghak
+  nextScene: Seoul
   isQuiz: 0
   isRight: 0
   speed: 0.05
   lastQuiz: 4
+  campus: Seoul
   resultBoard: {fileID: 1317519288}
 --- !u!114 &369833789
 MonoBehaviour:
