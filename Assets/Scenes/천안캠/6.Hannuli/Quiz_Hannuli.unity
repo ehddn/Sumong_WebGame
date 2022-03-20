@@ -881,8 +881,8 @@ MonoBehaviour:
   textBox: {fileID: 149416487}
   text:
   - {fileID: 5307280528957605892, guid: b34595a9085b2684296bb0987b5b3450, type: 3}
-  - {fileID: 5307280528957605892, guid: fc6a2f5ba664326408be56b955295f61, type: 3}
   - {fileID: 5307280528957605892, guid: d297eb9876b806e4ba91be426401a5ea, type: 3}
+  - {fileID: 5307280528957605892, guid: fc6a2f5ba664326408be56b955295f61, type: 3}
   answerList: 030000000100000002000000
   quizCnt: 0
   nextScene: Cheonan

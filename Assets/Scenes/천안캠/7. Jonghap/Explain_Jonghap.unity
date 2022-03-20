@@ -691,7 +691,7 @@ MonoBehaviour:
   - {fileID: 7748635869623695121, guid: 1b33baf4f914b044ab44c3c906c4f50b, type: 3}
   clickCnt: 0
   nextClick: 4
-  nextScene: Cheonan
+  nextScene: Seoul
   speed: 0.05
   campus: Cheonan
 --- !u!114 &1201313744

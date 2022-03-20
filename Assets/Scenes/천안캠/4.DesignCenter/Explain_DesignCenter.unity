@@ -332,7 +332,7 @@ MonoBehaviour:
   - {fileID: 3108197352931656084, guid: 2bca881a977856a48968746ae67c47ac, type: 3}
   clickCnt: 0
   nextClick: 8
-  nextScene: Quiz_MainCenter
+  nextScene: Quiz_DesignCenter
   speed: 0.05
   campus: Cheonan
 --- !u!114 &393859752

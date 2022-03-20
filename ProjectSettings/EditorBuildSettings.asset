@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/9.Walhaegwan/Quiz_Walhaegwan.unity"
     guid: 18ab9c91ab6cd054e9d592e79e341aea
   - enabled: 1
-    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/1.ChungRok/Explain_Chunglok.unity"
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/1.ChungRok/Explain_Chungrok.unity"
     guid: 4ccec4c2034b13e488a278aa51017c5f
   - enabled: 1
     path: "Assets/Scenes/\uCC9C\uC548\uCEA0/2.SangRok/Explain_SangRok.unity"
@@ -86,4 +86,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uCC9C\uC548\uCEA0/7. Jonghap/Explain_Jonghap.unity"
     guid: 874bca70e42c2e344b7b2ae90bd656fe
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 0365a43c0a007c242a5f314f8402a870
+  - enabled: 1
+    path: Assets/Scenes/Guide.unity
+    guid: 7b2b30f87b42a2742b15998019d7ae04
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/5.SongBaek/Quiz_SongBaek.unity"
+    guid: a75d7968677446a4e8b22953b3eade96
   m_configObjects: {}

@@ -161,6 +161,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 72b2120129a27f6419114be294d209a0, type: 3}
   - {fileID: 21300000, guid: c0de475da1d27eb408ee6b6b793a4da1, type: 3}
   - {fileID: 21300000, guid: 2d573c73410904b429cb8c27458e8874, type: 3}
+  sceneList:
+  - Explain_ChungRok
+  - Explain_SangRok
+  - Explain_MainCenter
+  - Explain_DesignCenter
+  - Explain_SongBaek
+  - Explain_Hannuli
+  - Explain_Jonghap
   way: {fileID: 1191641580}
   player: {fileID: 0}
   lockPrefeb: {fileID: 4309724292080801867, guid: 129a49ae09e62c24c92d9b622a11dd65, type: 3}

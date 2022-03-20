@@ -938,7 +938,7 @@ MonoBehaviour:
   - {fileID: 7055381855295807264, guid: 015396dc58f62f048960a2d1b7f17c1d, type: 3}
   clickCnt: 0
   nextClick: 4
-  nextScene: 
+  nextScene: Cheonan
   speed: 0.05
   campus: Cheonan
 --- !u!114 &1768875290

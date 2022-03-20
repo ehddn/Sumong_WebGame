@@ -8,6 +8,7 @@ public class CheonanStageManager : MonoBehaviour
 {
     public List<GameObject> wayPoint;
     public List<Sprite> charSprite;
+    public List<string> sceneList; //
     public GameObject way;
 
     public GameObject player;
@@ -74,7 +75,8 @@ public class CheonanStageManager : MonoBehaviour
     {
         if (GameManager.gameManager.cheonan_stage < wayPoint.Count - 1)
         {
-            GameManager.gameManager.cheonan_stage++;
+            //GameManager.gameManager.cheonan_stage++;
+            SceneManager.LoadScene(sceneList[GameManager.gameManager.cheonan_stage]); //
         }
         else
         {
