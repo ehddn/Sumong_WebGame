@@ -56,4 +56,34 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uC11C\uC6B8\uCEA0/9.Walhaegwan/Quiz_Walhaegwan.unity"
     guid: 18ab9c91ab6cd054e9d592e79e341aea
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/1.ChungRok/Explain_Chunglok.unity"
+    guid: 4ccec4c2034b13e488a278aa51017c5f
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/2.SangRok/Explain_SangRok.unity"
+    guid: b2069b97f55741849b13b25801397f8a
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/3.MainCenter/Explain_MainCenter.unity"
+    guid: 6cbbf2b2ec43f694f8199191dd487a44
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/3.MainCenter/Quiz_MainCenter.unity"
+    guid: b96926f410c99b34eb263cf4b999e62e
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/4.DesignCenter/Explain_DesignCenter.unity"
+    guid: ac52fcfce70a04f469e313cd4a0de7ce
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/4.DesignCenter/Quiz_DesignCenter.unity"
+    guid: d88975c66f7601d42a11e324bb0b546b
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/5.SongBaek/Explain_SongBaek.unity"
+    guid: fee7fb6b99779be4a9463cb6d932c1b8
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/6.Hannuli/Explain_Hannuli.unity"
+    guid: 1be310fdb9657c2499d7347845262c3c
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/6.Hannuli/Quiz_Hannuli.unity"
+    guid: a95483b3f4c79464e94a5ebaafb3f453
+  - enabled: 1
+    path: "Assets/Scenes/\uCC9C\uC548\uCEA0/7. Jonghap/Explain_Jonghap.unity"
+    guid: 874bca70e42c2e344b7b2ae90bd656fe
   m_configObjects: {}
