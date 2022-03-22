@@ -12,8 +12,17 @@ public class GameManager : MonoBehaviour
     public int cheonan_stage;
     public string user_name;
     public string user_phoneNum;
+    public bool seoulClear;
+    public bool cheonanClear;
 
+    public bool playing_seoul;
+    public bool playing_cheonan;
 
+    private AudioSource audio;
+    public AudioClip seoul_bgm;
+    public AudioClip cheonan_bgm;
+
+    public int cntRight;
 
     void Awake() //���� �ٲ� �ı����� ����
     {
@@ -29,10 +38,23 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        audio = gameObject.GetComponent<AudioSource>();
         seoul_stage = 0;
         cheonan_stage = 0;
     }
-
+    public void turnAudio()
+    {
+        if(playing_seoul==true)
+        {
+            audio.clip = seoul_bgm;
+            audio.Play();
+        }
+        else if (playing_cheonan == true)
+        {
+            audio.clip = cheonan_bgm;
+            audio.Play();
+        }
+    }
 
     void Update()
     {
@@ -40,5 +62,8 @@ public class GameManager : MonoBehaviour
         {
             seoul_stage = 8;
         }
+        
+        
+        
     }
 }

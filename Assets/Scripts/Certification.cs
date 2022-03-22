@@ -12,6 +12,7 @@ public class Certification : MonoBehaviour
     public Text user_name;
     public Text user_phoneNum;
     GameManager gameMg;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,9 @@ public class Certification : MonoBehaviour
         user_name.text = gameMg.user_name;
         user_phoneNum.text = gameMg.user_phoneNum;
 
+
+
+       
 
     }
 
