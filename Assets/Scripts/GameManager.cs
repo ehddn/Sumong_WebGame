@@ -10,8 +10,12 @@ public class GameManager : MonoBehaviour
 
     public int seoul_stage;
     public int cheonan_stage;
+    public string user_name;
+    public string user_phoneNum;
 
-    void Awake() //¾ÀÀÌ ¹Ù²î¾îµµ ÆÄ±«µÇÁö ¾ÊÀ½
+
+
+    void Awake() //ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²ï¿½îµµ ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     {
         if (gameManager == null)
             gameManager = this;
