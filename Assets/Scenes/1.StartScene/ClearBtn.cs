@@ -19,7 +19,7 @@ public class ClearBtn : MonoBehaviour
     void Start()
     {
         gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
-        if ((gameMg.seoulClear == true)|| (gameMg.cheonanClear == true))
+        if ((gameMg.seoulClear == true) && (gameMg.cheonanClear == true))
         {
             btn.gameObject.SetActive(true);
 

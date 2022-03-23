@@ -88,7 +88,7 @@ public class CheonanStageManager : MonoBehaviour
 
     public void OnPlayerClicked()
     {
-        if (GameManager.gameManager.cheonan_stage < wayPoint.Count - 1)
+        if (GameManager.gameManager.cheonan_stage <= wayPoint.Count - 1)
         {
             //GameManager.gameManager.cheonan_stage++;
             SceneManager.LoadScene(sceneList[GameManager.gameManager.cheonan_stage]); //

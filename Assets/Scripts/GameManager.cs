@@ -62,8 +62,10 @@ public class GameManager : MonoBehaviour
         {
             seoul_stage = 8;
         }
-        
-        
-        
+
+        if (cheonan_stage >= 7)
+        {
+            cheonan_stage = 6;
+        }
     }
 }

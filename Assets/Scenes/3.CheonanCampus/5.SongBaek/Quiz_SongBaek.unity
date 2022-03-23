@@ -181,6 +181,7 @@ MonoBehaviour:
   - D
   - "\uC22D\uB77C"
   - "\uAE00\uB85C\uBC8C\uAE08\uC735\uACBD\uC601\uD559\uBD80"
+  - "\uAE00\uB85C\uBC8C\uAE08\uC735\uACBD\uC601\uD559\uBD80"
 --- !u!114 &57026377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +332,8 @@ MonoBehaviour:
   - {fileID: 6310085309228642967, guid: 732cc2692bc023d4e8684cda909d96bc, type: 3}
   - {fileID: 6310085309228642967, guid: 15178b8526394174ea3f562c4111da23, type: 3}
   - {fileID: 6310085309228642967, guid: 3409074bfbe16e74bbbfef3cef454a65, type: 3}
-  answerList: 030000000400000001000000
+  - {fileID: 6310085309228642967, guid: 3409074bfbe16e74bbbfef3cef454a65, type: 3}
+  answerList: 03000000040000000100000001000000
   quizCnt: 0
   nextScene: Cheonan
   isQuiz: 0
@@ -819,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[0]
@@ -835,7 +837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[3]
-      value: "\uCCAD\uB85D\uAD00"
+      value: "\uB3C5\uC77C\uC5B4\uBB38\uD559 \uC804\uACF5"
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[4]
@@ -1335,6 +1337,7 @@ MonoBehaviour:
   - E
   - "\uC1A1\uB77C"
   - "\uC601\uC5B4\uAD8C\uC9C0\uC5ED\uD559 \uC804\uACF5"
+  - "\uC601\uC5B4\uAD8C\uC9C0\uC5ED\uD559 \uC804\uACF5"
 --- !u!114 &1734779594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,6 +1489,7 @@ MonoBehaviour:
   text:
   - F
   - "\uC5B4\uB77C"
+  - "\uB7EC\uC2DC\uC544\uAD8C\uC9C0\uC5ED\uD559 \uC804\uACF5"
   - "\uB7EC\uC2DC\uC544\uAD8C\uC9C0\uC5ED\uD559 \uC804\uACF5"
 --- !u!114 &1844596675
 MonoBehaviour:

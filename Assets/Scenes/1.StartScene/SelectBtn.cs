@@ -54,10 +54,14 @@ public class SelectBtn : MonoBehaviour
         if (type == 0)
         {
             gameMg.playing_seoul = true;
+            gameMg.seoul_stage = 0;
+            gameMg.cheonan_stage = 0;
         }
         else if (type == 1)
         {
             gameMg.playing_cheonan = true;
+            gameMg.seoul_stage = 0;
+            gameMg.cheonan_stage = 0;
         }
         gameMg.turnAudio();
         SceneManager.LoadScene(nextScene);
