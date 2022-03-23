@@ -7,7 +7,7 @@ using TMPro;
 public class InputUserDataPhoneNum : MonoBehaviour
 {
     GameManager gameMg;
-    public Text warrningText;
+    public TMP_Text warrningText;
     //public string user_name;
     public string user_phoneNum;
     public Image raycastImg;
@@ -44,7 +44,8 @@ public class InputUserDataPhoneNum : MonoBehaviour
         {
             raycastImg.raycastTarget = true;
             gameMg.user_phoneNum = input_userPhoneNum.text;
-            startScene.clickCnt++;
+            startScene.col=startScene.StartCoroutine(startScene.Typing(startScene.textBox, startScene.message, startScene.speed, 2));
+            //startScene.clickCnt++;
             //input_userPhoneNum.gameObject.SetActive(false);
         }
         //gameMg.user_name = input_userName.text;

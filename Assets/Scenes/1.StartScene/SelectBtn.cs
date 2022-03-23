@@ -11,15 +11,17 @@ public class SelectBtn : MonoBehaviour
     public string nextScene;
     public int type;
     public Image checkImg;
-    public Button me;
+    public Image sumung;
+    public Button btn;
     public AudioClip sound;
     private AudioSource audio;
     private Vector3 size;
+
     // Start is called before the first frame update
     void Start()
     {
         audio = gameObject.GetComponent<AudioSource>();
-        size = transform.localScale;
+        size = sumung.rectTransform.localScale;
         gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
         gameMg.playing_cheonan = false;
         gameMg.playing_seoul = false;
@@ -28,7 +30,7 @@ public class SelectBtn : MonoBehaviour
             if (gameMg.seoulClear == true)
             {
                 checkImg.gameObject.SetActive(true);
-                me.interactable = false;
+                btn.interactable = false;
             }
         }
         else if (type == 1)
@@ -36,7 +38,7 @@ public class SelectBtn : MonoBehaviour
             if (gameMg.cheonanClear == true)
             {
                 checkImg.gameObject.SetActive(true);
-                me.interactable = false;
+                btn.interactable = false;
             }
         }
         
@@ -62,12 +64,12 @@ public class SelectBtn : MonoBehaviour
     }
     public void OnTouch()
     {
-        this.gameObject.transform.localScale =new Vector3 (1f, 1.5f, 0);
+        sumung.gameObject.transform.localScale = size * 1.2f;
         audio.clip = sound;
         audio.Play();
     }
     public void OnTouchEnd()
     {
-        this.gameObject.transform.localScale = size;
+        sumung.gameObject.transform.localScale = size;
     }
 }

@@ -15,12 +15,14 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
     public Image sumungImg;
     public Image changeSumung;
     //public WriteText mainText;
+    
 
 
 
-    public Text textBox;
+    //public Text textBox;
+    public TMP_Text textBox;
     public List<Text> text;
-    private string message;
+    public string message;
     public int clickCnt = 0;
     public int nextClick = 0;
     public string nextScene;
@@ -28,7 +30,7 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
 
     //public string campus;
 
-    Coroutine col;
+    public Coroutine col;
 
 
     // Start is called before the first frame update
@@ -54,16 +56,19 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
         else if(clickCnt==3)
         {
             text[1].text= "호오.. 자네의 이름은 "+userNameBox.text+" 이군. 그렇다면 자네의 전화번호는 무엇인가?";
+            
             DeleteBox();
             
             
         }
-        else if (clickCnt == 6)
+        else if (clickCnt == 5)
         {
             userPhoneNumBox.gameObject.SetActive(true);
         }
-        else if (clickCnt == 7)
+        else if (clickCnt == 6)
         {
+            changeSumung.gameObject.SetActive(true);
+            sumungImg.gameObject.SetActive(false);
             DeleteBox();
         }
     }
@@ -72,7 +77,7 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
         userNameBox.gameObject.SetActive(false);
         userPhoneNumBox.gameObject.SetActive(false);
     }
-    IEnumerator Typing(Text textBox, string message, float speed,int num)
+    public IEnumerator Typing(TMP_Text textBox, string message, float speed,int num)
     {
 
         {
@@ -103,35 +108,38 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
                 raycastImg.raycastTarget = false;
                 break;
             case 4:
-
-                col = StartCoroutine(Typing(textBox, message, speed, 1));
-                break;
-            case 5:
                 StopCoroutine(col);
                 textBox.text = text[1].text;
+
+                //col = StartCoroutine(Typing(textBox, message, speed, 1));
+                break;
+            case 5:
+                raycastImg.raycastTarget = false;
+                //col = StartCoroutine(Typing(textBox, message, speed, 2));
+
+                //textBox.text = text[2].text;
                 break;
             case 6:
-                raycastImg.raycastTarget = false;
+                //StopCoroutine(col);
+                //textBox.text = text[3].text;
+                
+                
                 break;
+
+
             case 7:
-                col = StartCoroutine(Typing(textBox, message, speed, 2));
+                col = StartCoroutine(Typing(textBox, message, speed, 3));
                 break;
             case 8:
                 StopCoroutine(col);
-                textBox.text = text[2].text;
-                changeSumung.gameObject.SetActive(true);
-                sumungImg.gameObject.SetActive(false);
+                textBox.text = text[3].text;
+
                 break;
             case 9:
-                col = StartCoroutine(Typing(textBox, message, speed, 3));
-                break;
-            case 10:
-                StopCoroutine(col);
-                textBox.text = text[3].text;
-                break;
-            case 11:
                 SceneManager.LoadScene(nextScene);
                 break;
+
+
 
 
 

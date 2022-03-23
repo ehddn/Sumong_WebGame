@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 1224051239}
   - component: {fileID: 1224051240}
   m_Layer: 0
-  m_Name: "\uD68C\uC804\uC544\uC774\uCF58"
+  m_Name: TurnIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
