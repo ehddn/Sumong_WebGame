@@ -12,6 +12,7 @@ public class ClearBtn : MonoBehaviour
     public Image sumung;
 
     public AudioClip sound;
+    
     private AudioSource audio;
     private Vector3 size;
 
@@ -29,7 +30,15 @@ public class ClearBtn : MonoBehaviour
     }
     public void Onclick()
     {
-        SceneManager.LoadScene("Ending");
+        if (gameMg.cntRight >= 25)
+        {
+            SceneManager.LoadScene("MoveToEasterEggAvoid");
+        }
+        else
+        {
+            SceneManager.LoadScene("Ending");
+        }
+        
     }
     // Update is called once per frame
     void Update()

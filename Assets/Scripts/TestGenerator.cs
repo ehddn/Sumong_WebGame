@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TestGenerator : MonoBehaviour
 {
@@ -26,10 +27,13 @@ public class TestGenerator : MonoBehaviour
     private float dTime;
     private float fTime;
 
+    public string nextScene;
+    GameManager gameMg;
+
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<PlayerAvoid>();
-
+        gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
         start = false;
 
         startTime = 3.5f;
@@ -61,7 +65,7 @@ public class TestGenerator : MonoBehaviour
                 {
                     board.SetActive(true);
                     board.transform.GetChild(0).gameObject.SetActive(false);
-                    board.transform.GetChild(1).GetComponent<Text>().text = player.score.ToString() + "Á¡";
+                    board.transform.GetChild(1).GetComponent<Text>().text = player.score.ToString() + "ï¿½ï¿½";
                     result.gameObject.SetActive(true);
                     if (player.score >= 800)
                     {
@@ -88,7 +92,10 @@ public class TestGenerator : MonoBehaviour
                         result.GetComponent<Image>().sprite = resultList[5];
                     }
                     start = false;
-                    //¸î ÃÊ ÈÄ ´ÙÀ½ ¾ÀÀ¸·Î ³Ñ¾î°¡±â
+                    //Debug.Log("ê²Œì„ ë—");
+                    gameMg.findAvoid = "O";
+                    StartCoroutine(moveNextScene());
+                    //ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¾î°¡ï¿½ï¿½
                 }
                 else
                 {
@@ -148,5 +155,10 @@ public class TestGenerator : MonoBehaviour
     {
         start = true;
         board.SetActive(false);
+    }
+    IEnumerator moveNextScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        SceneManager.LoadScene(nextScene);
     }
 }

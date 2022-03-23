@@ -22,8 +22,13 @@ public class GameManager : MonoBehaviour
     public AudioClip seoul_bgm;
     public AudioClip cheonan_bgm;
 
-    public int cntRight;
 
+    //certificate
+    public int cntRight;
+    public string findAvoid;
+    public string findPuzzle;
+
+    
     void Awake() //���� �ٲ� �ı����� ����
     {
         if (gameManager == null)
@@ -38,6 +43,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        findAvoid = "X";
+        findPuzzle = "X";
         audio = gameObject.GetComponent<AudioSource>();
         seoul_stage = 0;
         cheonan_stage = 0;
@@ -66,6 +73,11 @@ public class GameManager : MonoBehaviour
         if (cheonan_stage >= 7)
         {
             cheonan_stage = 6;
+        }
+
+        if (SceneManager.GetActiveScene().name == "Ending") 
+        {
+            audio.mute = true;
         }
     }
 }

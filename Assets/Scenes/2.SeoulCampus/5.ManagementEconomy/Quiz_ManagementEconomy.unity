@@ -444,7 +444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f7ef2d60f5a2df41b8d722494fb4a6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43c29419f1069ae4986b525f3dcbaebf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -570,7 +570,7 @@ RectTransform:
   m_GameObject: {fileID: 441986208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.03, y: 1, z: 1}
   m_Children:
   - {fileID: 311934427}
   m_Father: {fileID: 550761690}
@@ -578,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.64, y: 90}
+  m_AnchoredPosition: {x: 7, y: 199}
   m_SizeDelta: {x: 2794.72, y: 1332.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &441986210
@@ -593,7 +593,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 3200, y: 2000}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -954,7 +954,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620565519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1306, y: -571, z: -4671}
+  m_LocalPosition: {x: 1172, y: -571, z: -276}
   m_LocalScale: {x: 120.73306, y: 77.22732, z: 51.899998}
   m_Children: []
   m_Father: {fileID: 550761690}
@@ -1047,7 +1047,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1231,9 +1231,9 @@ MonoBehaviour:
   - "\uBE45\uD1A0\uB9AC"
   - "\uC5D8\uB9AC\uBCA0\uC774\uD130"
   - "\uAE00\uB85C\uBC8C\uACBD\uC601\uD559\uACFC"
-  - "\uC9C0\uC2DD\u318D\uC815\uBCF4 \uC81C\uBC18\uC5D0 \uB300\uD55C \uC774\uB860\uACFC
-    \uC2E4\uBB34 \uAD50\uC721\uC744 \uAE30\uBC18\uC73C\uB85C, \uC815\uBCF4\uD654\uC2DC\uB300
-    \uCD5C\uACE0\uC758 \uC815\uBCF4\uC804\uBB38\uAC00\uB97C \uC591\uC131"
+  - "\uC9C0\uC2DD,\uC815\uBCF4 \uC81C\uBC18\uC5D0 \uB300\uD55C \uC774\uB860\uACFC
+    \uC2E4\uBB34 \uAD50\uC721\uC744 \uAE30\uBC18\uC73C\uB85C, \uC815\uBCF4\uD654
+    \uC120\uB3C4"
   - 
 --- !u!114 &1450604350
 MonoBehaviour:

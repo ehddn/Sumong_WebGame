@@ -241,7 +241,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -577,8 +577,9 @@ MonoBehaviour:
   - {fileID: 2165517897707384560, guid: 7392596340f71ec4a8808abf60a439e2, type: 3}
   - {fileID: 2165517897707384560, guid: 5c63b9eb0c848344190cb42aa2001bc7, type: 3}
   - {fileID: 2165517897707384560, guid: 94a9f4ee491c3fe4a85663c1fc41ac72, type: 3}
+  - {fileID: 2165517897707384560, guid: 605228bd71e7f824aadb2862ffd5f59f, type: 3}
   clickCnt: 0
-  nextClick: 8
+  nextClick: 10
   nextScene: Quiz_Jahwa
   speed: 0.05
   campus: Seoul
@@ -669,7 +670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.y

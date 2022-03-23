@@ -199,8 +199,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128826380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.172, y: 0.201, z: 84.38}
-  m_LocalScale: {x: 0.4514146, y: 0.48888668, z: 1}
+  m_LocalPosition: {x: -3.89, y: 0.64, z: 84.38}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1742320891}
   - {fileID: 1570370418}
@@ -310,7 +310,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.7, y: -20}
-  m_SizeDelta: {x: 3238.5, y: 2096}
+  m_SizeDelta: {x: 3238, y: 2096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393859751
 MonoBehaviour:
@@ -330,8 +330,9 @@ MonoBehaviour:
   - {fileID: 3108197352931656084, guid: 79040acc7564d194fb3636f3942a5330, type: 3}
   - {fileID: 3108197352931656084, guid: 57e7f6edaeaebae48a9fc61862a7884f, type: 3}
   - {fileID: 3108197352931656084, guid: 2bca881a977856a48968746ae67c47ac, type: 3}
+  - {fileID: 3108197352931656084, guid: f329d6f26718b3141b18aa1ed352481c, type: 3}
   clickCnt: 0
-  nextClick: 8
+  nextClick: 10
   nextScene: Quiz_DesignCenter
   speed: 0.05
   campus: Cheonan
@@ -355,7 +356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f7ef2d60f5a2df41b8d722494fb4a6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43c29419f1069ae4986b525f3dcbaebf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -407,7 +408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -871, y: -41.9}
+  m_AnchoredPosition: {x: -893, y: -41.9}
   m_SizeDelta: {x: 1500, y: 1411.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500539104
@@ -488,7 +489,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -560,8 +561,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913281689}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -458, y: -331, z: -21}
-  m_LocalScale: {x: 96.58645, y: 64.356094, z: 51.899998}
+  m_LocalPosition: {x: -355, y: -495, z: -21}
+  m_LocalScale: {x: 120, y: 120, z: 0}
   m_Children: []
   m_Father: {fileID: 1512461055}
   m_RootOrder: 0
@@ -606,7 +607,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: da27e1af85e354c42a33ca9fbca27b56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a1c1a25b111ea141be4017ef258c02b, type: 3}
   m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_FlipX: 0
   m_FlipY: 0

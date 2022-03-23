@@ -11,6 +11,10 @@ public class Certification : MonoBehaviour
     public Text dateText;
     public Text user_name;
     public Text user_phoneNum;
+    public Text score;
+    public Text avoid;
+    public Text puzzle;
+
     GameManager gameMg;
     
 
@@ -25,6 +29,9 @@ public class Certification : MonoBehaviour
         dateText.text = date;
         user_name.text = gameMg.user_name;
         user_phoneNum.text = gameMg.user_phoneNum;
+        score.text = score.text + gameMg.cntRight;
+        avoid.text += gameMg.findAvoid;
+        puzzle.text += gameMg.findPuzzle;
 
 
 

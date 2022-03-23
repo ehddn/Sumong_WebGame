@@ -17,6 +17,7 @@ public class WriteQuizText : MonoBehaviour
     public bool isRight = false;
     public float speed;
     public int lastQuiz;
+    GameManager gameMg;
 
     public string campus;
 
@@ -35,6 +36,7 @@ public class WriteQuizText : MonoBehaviour
     void Start()
     {
         col = StartCoroutine(delay(textBox, message, speed, quizCnt,0));
+        gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
         btn1 = GameObject.Find("Answer1").GetComponent<QuizBtn>();
         btn2 = GameObject.Find("Answer2").GetComponent<QuizBtn>();
         btn3 = GameObject.Find("Answer3").GetComponent<QuizBtn>();
@@ -75,6 +77,7 @@ public class WriteQuizText : MonoBehaviour
         if (answer == answerList[quizCnt])
         {
             Debug.Log("정답!");
+            gameMg.cntRight++;
             isRight = true;
             resultBoard.SetActive(true);
 

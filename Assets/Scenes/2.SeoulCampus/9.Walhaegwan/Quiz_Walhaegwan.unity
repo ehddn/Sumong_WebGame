@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LastMap
       objectReference: {fileID: 0}
+    - target: {fileID: 8047233656980291528, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
 --- !u!1 &479784046
@@ -576,7 +580,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.3, y: -24}
-  m_SizeDelta: {x: 3269.8, y: 2092.2}
+  m_SizeDelta: {x: 3238, y: 2096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860682953
 MonoBehaviour:
@@ -599,7 +603,7 @@ MonoBehaviour:
   - {fileID: 3839105792594202785, guid: 4b220ba0563c2e8439dd776cc7d7e48d, type: 3}
   answerList: 0400000002000000040000000100000001000000
   quizCnt: 0
-  nextScene: SelectMap
+  nextScene: MoveToPuzzleSeoul
   isQuiz: 0
   isRight: 0
   speed: 0.05
@@ -626,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f7ef2d60f5a2df41b8d722494fb4a6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43c29419f1069ae4986b525f3dcbaebf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1126,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669136850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1306, y: -571, z: -4671}
+  m_LocalPosition: {x: 15, y: -571, z: -225}
   m_LocalScale: {x: 120.73306, y: 77.22732, z: 51.899998}
   m_Children: []
   m_Father: {fileID: 2124342273}
@@ -1172,7 +1176,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: da27e1af85e354c42a33ca9fbca27b56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c49a0a5f62a8b874fa65425c38ba5129, type: 3}
   m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1219,7 +1223,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1449,7 +1453,7 @@ RectTransform:
   m_GameObject: {fileID: 1883358947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.03, y: 1, z: 1}
   m_Children:
   - {fileID: 1215860525}
   m_Father: {fileID: 2124342273}
@@ -1457,7 +1461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.64, y: 111}
+  m_AnchoredPosition: {x: 8, y: 183}
   m_SizeDelta: {x: 2794.72, y: 1332.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1883358949
@@ -1472,7 +1476,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1675,7 +1679,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 3200, y: 2000}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

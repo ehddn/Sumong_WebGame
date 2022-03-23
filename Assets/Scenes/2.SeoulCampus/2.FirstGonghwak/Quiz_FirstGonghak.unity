@@ -372,8 +372,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362375637}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1306, y: -571, z: -4671}
-  m_LocalScale: {x: 120.73306, y: 77.22732, z: 51.899998}
+  m_LocalPosition: {x: 112, y: -571, z: -145}
+  m_LocalScale: {x: 120.73306, y: 90, z: 51.899998}
   m_Children: []
   m_Father: {fileID: 531522656}
   m_RootOrder: 0
@@ -418,7 +418,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: da27e1af85e354c42a33ca9fbca27b56, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a2923604492102468c048e7a8beb31a, type: 3}
   m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -457,7 +457,7 @@ RectTransform:
   m_GameObject: {fileID: 369833786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.87497, z: 1}
   m_Children:
   - {fileID: 1375413155}
   m_Father: {fileID: 531522656}
@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3, y: -24}
-  m_SizeDelta: {x: 3269.8, y: 2092.2}
+  m_AnchoredPosition: {x: 4.3, y: -17}
+  m_SizeDelta: {x: 3238, y: 2096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369833788
 MonoBehaviour:
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f7ef2d60f5a2df41b8d722494fb4a6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43c29419f1069ae4986b525f3dcbaebf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -711,8 +711,8 @@ MonoBehaviour:
   text:
   - "\uAC8C\uC784\uC744 \uAC1C\uBC1C\uD558\uACE0 \uAE30\uD68D\uD558\uB294"
   - "\uC560\uB2C8\uBA54\uC774\uC158\uC804\uACF5"
-  - "\uAC8C\uC784\uC804\uACF5"
-  - "\uACC4\uB2E8"
+  - "\uC804\uAE30\uACF5\uD559\uC804\uACF5"
+  - "3\uB2E8 \uD569\uCCB4 \uB85C\uBCF4\uD2B8"
   - 
 --- !u!114 &1078969034
 MonoBehaviour:
@@ -916,7 +916,7 @@ RectTransform:
   m_GameObject: {fileID: 1317519288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.03, y: 1, z: 1}
   m_Children:
   - {fileID: 294509891}
   m_Father: {fileID: 531522656}
@@ -924,7 +924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.64, y: 9.2}
+  m_AnchoredPosition: {x: 9, y: 95}
   m_SizeDelta: {x: 2794.72, y: 1332.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1317519290
@@ -939,7 +939,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1270,7 +1270,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

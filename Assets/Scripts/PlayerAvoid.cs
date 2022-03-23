@@ -64,7 +64,7 @@ public class PlayerAvoid : MonoBehaviour
             }
         }
 
-        scoreText.text = "Á¡¼ö: " + score;
+        scoreText.text = "ì ìˆ˜: " + score;
     }
 
     public void OnRightClicked()
