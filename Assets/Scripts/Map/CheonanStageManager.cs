@@ -17,6 +17,8 @@ public class CheonanStageManager : MonoBehaviour
     public GameObject list;
     public GameObject click;
 
+    public GameObject pointerPrefab;
+
     public Sprite lockImage;
     public Sprite clearImage;
 
@@ -34,6 +36,19 @@ public class CheonanStageManager : MonoBehaviour
         {
             GameObject locker = Instantiate(lockPrefeb, list.transform) as GameObject;
             locker.transform.position = wayPoint[i].transform.position;
+        }
+
+        if (GameManager.gameManager.cheonan_stage > 0)
+        {
+            GameObject pointer = Instantiate(pointerPrefab, wayPoint[GameManager.gameManager.cheonan_stage - 1].transform.position, Quaternion.Euler(0, 0, 0));
+            List<GameObject> pointerWay = new List<GameObject>();
+            pointerWay.Add(wayPoint[GameManager.gameManager.cheonan_stage - 1]);
+            for (int i = 0; i < wayPoint[GameManager.gameManager.cheonan_stage - 1].transform.childCount; i++)
+            {
+                pointerWay.Add(wayPoint[GameManager.gameManager.cheonan_stage - 1].transform.GetChild(i).gameObject);
+            }
+            pointerWay.Add(wayPoint[GameManager.gameManager.cheonan_stage]);
+            StartCoroutine(pointer.GetComponent<Pointer>().move(pointerWay));
         }
     }
 

@@ -260,6 +260,7 @@ MonoBehaviour:
   - D
   - "\uC778\uB354\uC2A4\uD2B8\uB9AC\uC5BC \uB514\uC790\uC778 \uC804\uACF5"
   - "\uAD6C\uB801\uC774"
+  - "\uAD6C\uB801\uC774"
 --- !u!114 &90149226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,6 +412,7 @@ MonoBehaviour:
   text:
   - C
   - "\uD328\uC158\uB514\uC790\uC778 \uC804\uACF5"
+  - "\uD30C\uC774\uD504"
   - "\uD30C\uC774\uD504"
 --- !u!114 &161799768
 MonoBehaviour:
@@ -686,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[0]
@@ -702,7 +704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[3]
-      value: "\uCCAD\uB85D\uAD00"
+      value: "\uBCF5\uB3C4"
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[4]
@@ -891,7 +893,8 @@ MonoBehaviour:
   - {fileID: 3108197352931656084, guid: 6068410feae300b4e9b21d9b568936a8, type: 3}
   - {fileID: 3108197352931656084, guid: 4222b91242eb0a34b87761f718fabb37, type: 3}
   - {fileID: 3108197352931656084, guid: 3e631b8170809d643a49b11e7ffe8e8e, type: 3}
-  answerList: 040000000100000001000000
+  - {fileID: 3108197352931656084, guid: 3e631b8170809d643a49b11e7ffe8e8e, type: 3}
+  answerList: 04000000010000000100000001000000
   quizCnt: 0
   nextScene: Cheonan
   isQuiz: 0
@@ -1424,6 +1427,7 @@ MonoBehaviour:
   text:
   - B
   - "\uB514\uC9C0\uD138 \uCF58\uD150\uCE20 \uC804\uACF5"
+  - "\uAD00"
   - "\uAD00"
 --- !u!114 &1592689290
 MonoBehaviour:

@@ -599,7 +599,7 @@ MonoBehaviour:
   - {fileID: 3839105792594202785, guid: 4b220ba0563c2e8439dd776cc7d7e48d, type: 3}
   answerList: 0400000002000000040000000100000001000000
   quizCnt: 0
-  nextScene: Select
+  nextScene: SelectMap
   isQuiz: 0
   isRight: 0
   speed: 0.05

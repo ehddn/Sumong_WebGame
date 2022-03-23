@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     public GameObject player;
+    private GameObject pointer;
 
     void Start()
     {
@@ -14,6 +15,15 @@ public class CameraManager : MonoBehaviour
     
     void Update()
     {
-        transform.position = new Vector3(0, player.transform.position.y, -10);
+        pointer = GameObject.FindGameObjectWithTag("Pointer");
+
+        if(pointer != null)
+        {
+            transform.position = new Vector3(0, pointer.transform.position.y, -10);
+        }
+        else
+        {
+            transform.position = new Vector3(0, player.transform.position.y, -10);
+        }
     }
 }
