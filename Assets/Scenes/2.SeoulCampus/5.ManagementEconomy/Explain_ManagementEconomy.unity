@@ -279,6 +279,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4069080139735349892, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080139735349892, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080139735349893, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 353477f7b738b8147bfeb186bf330687, type: 3}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -342,6 +354,22 @@ PrefabInstance:
     - target: {fileID: 4069080140406529241, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080141145559386, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080141145559386, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080141145559386, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069080141145559387, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
@@ -561,8 +589,9 @@ MonoBehaviour:
   text:
   - {fileID: 822847019523298304, guid: 8de463de75b081749b1764e390aceab3, type: 3}
   - {fileID: 822847019523298304, guid: 121324990ad1c56478b055b7923be268, type: 3}
+  - {fileID: 822847019523298304, guid: bcf0951202274424fb2395bb8dd07222, type: 3}
   clickCnt: 0
-  nextClick: 4
+  nextClick: 6
   nextScene: Quiz_ManagementEconomy
   speed: 0.05
   campus: Seoul

@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public int cntRight;
     public string findAvoid;
     public string findPuzzle;
+    public string score;
 
     
     void Awake() //���� �ٲ� �ı����� ����

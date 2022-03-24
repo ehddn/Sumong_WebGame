@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &160938707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &770908795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,14 +906,14 @@ MonoBehaviour:
   cheonan_stage: 0
   user_name: 
   user_phoneNum: 
-  seoulClear: 1
-  cheonanClear: 1
-  playing_seoul: 0
-  playing_cheonan: 0
+  seoulClear: 0
+  cheonanClear: 0
+  playing_seoul: 1
+  playing_cheonan: 1
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
   avoid_bgm: {fileID: 0}
-  cntRight: 0
+  cntRight: 10
   findAvoid: 
   findPuzzle: 
 --- !u!4 &770908796
@@ -1796,7 +1796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1423823754
 RectTransform:
   m_ObjectHideFlags: 0

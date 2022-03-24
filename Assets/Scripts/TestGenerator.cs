@@ -70,30 +70,37 @@ public class TestGenerator : MonoBehaviour
                     if (player.score >= 800)
                     {
                         result.GetComponent<Image>().sprite = resultList[0];
+                        gameMg.score = "A+";
+
                     }
                     else if(player.score >= 500)
                     {
                         result.GetComponent<Image>().sprite = resultList[1];
+                        gameMg.score = "A";
                     }
                     else if (player.score >= 200)
                     {
                         result.GetComponent<Image>().sprite = resultList[2];
+                        gameMg.score = "B";
                     }
                     else if (player.score >= -200)
                     {
                         result.GetComponent<Image>().sprite = resultList[3];
+                        gameMg.score = "C";
                     }
                     else if (player.score >= -400)
                     {
                         result.GetComponent<Image>().sprite = resultList[4];
+                        gameMg.score = "D";
                     }
                     else
                     {
                         result.GetComponent<Image>().sprite = resultList[5];
+                        gameMg.score = "F";
                     }
                     start = false;
                     //Debug.Log("게임 끗");
-                    gameMg.findAvoid = "O";
+                    gameMg.findAvoid = "O"+"재수강 학점: "+gameMg.score;
                     StartCoroutine(moveNextScene());
                     //�� �� �� ���� ������ �Ѿ��
                 }

@@ -30,14 +30,17 @@ public class ClearBtn : MonoBehaviour
     }
     public void Onclick()
     {
-        if (gameMg.cntRight >= 25)
+        if (gameMg.cntRight <= 24)
         {
             gameMg.turnAudio();
             SceneManager.LoadScene("MoveToEasterEggAvoid");
         }
         else
         {
-            SceneManager.LoadScene("Ending");
+            gameMg.turnAudio();
+            SceneManager.LoadScene("MoveToEasterEggPuzzle");
+            //SceneManager.LoadScene("Ending");
+            //SceneManager.LoadScene("Ending");
         }
         
     }
