@@ -906,16 +906,17 @@ MonoBehaviour:
   cheonan_stage: 0
   user_name: 
   user_phoneNum: 
-  seoulClear: 0
-  cheonanClear: 0
+  seoulClear: 1
+  cheonanClear: 1
   playing_seoul: 1
   playing_cheonan: 1
-  seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
-  cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
-  avoid_bgm: {fileID: 0}
+  seoul_bgm: {fileID: 8300000, guid: 3b45a7e87455437408c50dce2dd0b081, type: 3}
+  cheonan_bgm: {fileID: 8300000, guid: c6877e8a18130d342bbbd59d6b904990, type: 3}
+  avoid_bgm: {fileID: 8300000, guid: 1045aca994f24994b85c97d00f863987, type: 3}
   cntRight: 10
   findAvoid: 
   findPuzzle: 
+  score: 
 --- !u!4 &770908796
 Transform:
   m_ObjectHideFlags: 0

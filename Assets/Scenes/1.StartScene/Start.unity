@@ -153,7 +153,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cdb7ad8fc0da6fc49b844440c1c1bcd1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a8428034907fe16448c9af6ddb66b0be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -2640,12 +2640,13 @@ MonoBehaviour:
   cheonanClear: 0
   playing_seoul: 0
   playing_cheonan: 0
-  seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
-  cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
+  seoul_bgm: {fileID: 8300000, guid: 3b45a7e87455437408c50dce2dd0b081, type: 3}
+  cheonan_bgm: {fileID: 8300000, guid: c6877e8a18130d342bbbd59d6b904990, type: 3}
   avoid_bgm: {fileID: 8300000, guid: d4d8df3313278394ebe8bae9943713fe, type: 3}
   cntRight: 0
   findAvoid: 
   findPuzzle: 
+  score: 
 --- !u!4 &1691016401
 Transform:
   m_ObjectHideFlags: 0
