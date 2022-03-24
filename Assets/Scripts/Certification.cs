@@ -2,19 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Certification : MonoBehaviour
 {
     public string month;
     public string date;
-    public Text monthText;
+    /*public Text monthText;
     public Text dateText;
     public Text user_name;
     public Text user_phoneNum;
     public Text score;
     public Text avoid;
     public Text puzzle;
-    public Text totalScore;
+    public Text totalScore;*/
+
+    public TMP_Text monthText;
+    public TMP_Text dateText;
+    public TMP_Text user_name;
+    public TMP_Text user_phoneNum;
+    public TMP_Text score;
+    public TMP_Text avoid;
+    public TMP_Text puzzle;
+    public TMP_Text totalScore;
 
     GameManager gameMg;
     

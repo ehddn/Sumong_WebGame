@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
             audio.clip = cheonan_bgm;
             audio.Play();
         }
+        
         else
         {
             audio.clip = avoid_bgm;

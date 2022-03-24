@@ -397,7 +397,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c2685491d71d3104fa148d8bbcc23993, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d4d8df3313278394ebe8bae9943713fe, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -784,6 +784,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7479159150612640873, guid: 9f96a413fd809c343b6f40ffd55089f4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7479159150612640876, guid: 9f96a413fd809c343b6f40ffd55089f4, type: 3}
       propertyPath: m_Volume
       value: 0.2
@@ -791,6 +795,10 @@ PrefabInstance:
     - target: {fileID: 7479159150775817928, guid: 9f96a413fd809c343b6f40ffd55089f4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479159150775817934, guid: 9f96a413fd809c343b6f40ffd55089f4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7479159150775817968, guid: 9f96a413fd809c343b6f40ffd55089f4, type: 3}
       propertyPath: m_Volume
@@ -1589,7 +1597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1840393066
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1708,10 +1716,11 @@ MonoBehaviour:
   playing_cheonan: 0
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
-  avoid_bgm: {fileID: 0}
-  cntRight: 0
+  avoid_bgm: {fileID: 8300000, guid: d4d8df3313278394ebe8bae9943713fe, type: 3}
+  cntRight: 30
   findAvoid: 
-  findPuzzle: 
+  findPuzzle: O
+  score: 
 --- !u!4 &1840393068
 Transform:
   m_ObjectHideFlags: 0

@@ -23,6 +23,7 @@ public class DragAndDrop : MonoBehaviour
     MixPuzzle mix;
     public bool isright;
     
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -51,15 +52,23 @@ public class DragAndDrop : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (isright == false)
         {
-            audioSource.clip = selectBGM;
-            audioSource.Play();
-            Vector3 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            isHeld = true;
+            if (Input.GetMouseButtonDown(0))
+            {
+                audioSource.clip = selectBGM;
+                audioSource.Play();
+                Vector3 mousePos;
+                mousePos = Input.mousePosition;
+                mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+                isHeld = true;
+            }
         }
+        else
+        {
+            drag.enabled = false;
+        }
+       
         
     }
     private void OnMouseUp()
@@ -77,6 +86,8 @@ public class DragAndDrop : MonoBehaviour
                 drag.enabled = false;
                 isHeld = true;
                 isright = true;
+                drag.enabled = false;
+
 
                 //transform.SetParent(puzzle.transform);
                 //transform.localPosition = Vector3.zero;

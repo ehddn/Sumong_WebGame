@@ -86,7 +86,7 @@ public class WriteQuizText : MonoBehaviour
                 quizCnt++;
             }
             
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,1.8f));
             
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
@@ -107,7 +107,7 @@ public class WriteQuizText : MonoBehaviour
                 quizCnt++;
             }
 
-            col = StartCoroutine(delay(textBox, message, speed, quizCnt,2.0f));
+            col = StartCoroutine(delay(textBox, message, speed, quizCnt,1.8f));
             
             btn1.UpdateText(quizCnt);
             btn2.UpdateText(quizCnt);
