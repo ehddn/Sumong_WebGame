@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class DragAndDrop : MonoBehaviour
     //,IDragHandler,IEndDragHandler, IBeginDragHandler
 {
-    public float snapOffset = 30;
+    public float snapOffset = 10;
     public Vector2 AnswerPos;
     public int piece_no;
     public GameObject puzzle;
@@ -19,14 +19,14 @@ public class DragAndDrop : MonoBehaviour
     public AudioClip wrongBGM;
     public AudioClip correctBGM;
     public AudioClip selectBGM;
-
+    DragAndDrop drag;
     MixPuzzle mix;
 
     // Start is called before the first frame update
     void Awake()
     {
         AnswerPos = new Vector2(transform.position.x, transform.position.y-1);
-       
+        drag = this.GetComponent<DragAndDrop>();
         audioSource = GetComponent<AudioSource>();
     }
     void OnEnable()
@@ -71,6 +71,8 @@ public class DragAndDrop : MonoBehaviour
             audioSource.Play();
             this.gameObject.transform.localPosition = AnswerPos;
             mix.correctCnt++;
+            drag.enabled = false;
+
             //transform.SetParent(puzzle.transform);
             //transform.localPosition = Vector3.zero;
         }

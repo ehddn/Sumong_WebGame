@@ -47,4 +47,8 @@ public class MixPuzzle : MonoBehaviour
         }
         
     }
+    IEnumerator showResult()
+    {
+        yield return new WaitForSeconds(2.0f);
+    }
 }
