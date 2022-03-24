@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 664, y: -348}
+  m_AnchoredPosition: {x: 664, y: 76}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160938708
@@ -912,6 +912,7 @@ MonoBehaviour:
   playing_cheonan: 0
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
+  avoid_bgm: {fileID: 0}
   cntRight: 0
   findAvoid: 
   findPuzzle: 
@@ -1812,7 +1813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -658, y: -337}
+  m_AnchoredPosition: {x: -658, y: 87}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423823755
@@ -2506,7 +2507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43c29419f1069ae4986b525f3dcbaebf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12bafe521a6585443985658f3c45c686, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

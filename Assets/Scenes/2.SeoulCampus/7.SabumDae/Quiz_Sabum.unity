@@ -338,7 +338,7 @@ MonoBehaviour:
   nextScene: Seoul
   isQuiz: 0
   isRight: 0
-  speed: 0.05
+  speed: 0.02
   lastQuiz: 3
   campus: Seoul
   resultBoard: {fileID: 920091385}

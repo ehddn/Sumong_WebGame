@@ -543,7 +543,7 @@ MonoBehaviour:
   nextScene: Cheonan
   isQuiz: 0
   isRight: 0
-  speed: 0.05
+  speed: 0.02
   lastQuiz: 3
   campus: Cheonan
   resultBoard: {fileID: 1785864214}

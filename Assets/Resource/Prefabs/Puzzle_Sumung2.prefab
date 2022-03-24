@@ -28,7 +28,7 @@ Transform:
   m_LocalPosition: {x: -0.27328372, y: -1.0467584, z: -41.954693}
   m_LocalScale: {x: 7.2469597, y: 7.19829, z: 1}
   m_Children: []
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4663741637938623027
@@ -116,7 +116,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151502601486}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7479159150500159963
@@ -276,6 +276,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150500159964
 AudioSource:
   m_ObjectHideFlags: 0
@@ -406,7 +407,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151727254782}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &7479159150544107247
@@ -566,6 +567,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150544107024
 AudioSource:
   m_ObjectHideFlags: 0
@@ -696,7 +698,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159150591293767}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7479159150583473311
@@ -856,6 +858,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150583473280
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1150,7 +1153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159150776049708}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7479159150612640875
@@ -1310,6 +1313,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150612640876
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1441,7 +1445,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151410538114}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1614,6 +1618,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150775817968
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1826,7 +1831,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159152630880887}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7479159150869800841
@@ -1986,6 +1991,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159150869800882
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2198,7 +2204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151776220604}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &7479159151018435875
@@ -2358,6 +2364,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151018435876
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2488,7 +2495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151698243709}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &7479159151060173531
@@ -2648,6 +2655,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151060173532
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2778,7 +2786,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159152074909674}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7479159151165937939
@@ -2938,6 +2946,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151165937940
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3232,7 +3241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159150912398616}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7479159151200393281
@@ -3392,6 +3401,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151200393290
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3522,7 +3532,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151195057464}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7479159151332364180
@@ -3682,6 +3692,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151332364185
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3976,7 +3987,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151730734053}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7479159151470244006
@@ -4136,6 +4147,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151470244011
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4594,7 +4606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159152432917327}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7479159151744359053
@@ -4754,6 +4766,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159151744359094
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4960,24 +4973,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: 41.954693}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 461853531480841210}
-  - {fileID: 7479159152559898143}
-  - {fileID: 7479159150775817971}
-  - {fileID: 7479159150612640872}
-  - {fileID: 7479159151018435872}
-  - {fileID: 7479159152394515223}
-  - {fileID: 7479159150869800846}
-  - {fileID: 7479159150583473308}
-  - {fileID: 7479159151165937936}
-  - {fileID: 7479159152475319926}
-  - {fileID: 7479159151470244007}
-  - {fileID: 7479159151744359090}
-  - {fileID: 7479159150500159960}
-  - {fileID: 7479159150544107244}
-  - {fileID: 7479159151332364181}
-  - {fileID: 7479159151200393286}
-  - {fileID: 7479159151060173528}
-  - {fileID: 7479159152271850888}
+  - {fileID: 982403663509194587}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5011,8 +5007,10 @@ MonoBehaviour:
   - {fileID: 7479159151060173525}
   - {fileID: 7479159152271850885}
   randomPuzzlePos: []
+  resultImage: {fileID: 0}
   correctCnt: 0
   resultBoard: {fileID: 0}
+  pieces: {fileID: 0}
 --- !u!1 &7479159152074909669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5129,7 +5127,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159150607433119}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &7479159152271850891
@@ -5289,6 +5287,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159152271850892
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5419,7 +5418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151178404498}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &7479159152394515222
@@ -5579,6 +5578,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159152394515227
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5791,7 +5791,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7479159151469189620}
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &7479159152475319921
@@ -5951,6 +5951,7 @@ MonoBehaviour:
   wrongBGM: {fileID: 8300000, guid: 57696787e69005e4fa0aa71e4a439d65, type: 3}
   correctBGM: {fileID: 8300000, guid: fe19e082a172ba741815e15092e9c93f, type: 3}
   selectBGM: {fileID: 8300000, guid: 5e69e59a65eb1e74cb1081db3a046e77, type: 3}
+  isright: 0
 --- !u!82 &7479159152475319930
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6075,7 +6076,7 @@ Transform:
   m_LocalPosition: {x: -0.2888889, y: -1.0388889, z: -41.954693}
   m_LocalScale: {x: 0.7802657, y: 0.7869375, z: 1}
   m_Children: []
-  m_Father: {fileID: 7479159151824746776}
+  m_Father: {fileID: 982403663509194587}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7479159152559898142
@@ -6211,3 +6212,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &8294688570294790577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982403663509194587}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &982403663509194587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294688570294790577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 461853531480841210}
+  - {fileID: 7479159152559898143}
+  - {fileID: 7479159150775817971}
+  - {fileID: 7479159150612640872}
+  - {fileID: 7479159151018435872}
+  - {fileID: 7479159152394515223}
+  - {fileID: 7479159150869800846}
+  - {fileID: 7479159150583473308}
+  - {fileID: 7479159151165937936}
+  - {fileID: 7479159152475319926}
+  - {fileID: 7479159151470244007}
+  - {fileID: 7479159151744359090}
+  - {fileID: 7479159150500159960}
+  - {fileID: 7479159150544107244}
+  - {fileID: 7479159151332364181}
+  - {fileID: 7479159151200393286}
+  - {fileID: 7479159151060173528}
+  - {fileID: 7479159152271850888}
+  m_Father: {fileID: 7479159151824746776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
