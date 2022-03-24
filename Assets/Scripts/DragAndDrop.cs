@@ -21,7 +21,8 @@ public class DragAndDrop : MonoBehaviour
     public AudioClip selectBGM;
     DragAndDrop drag;
     MixPuzzle mix;
-
+    public bool isright;
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -65,23 +66,29 @@ public class DragAndDrop : MonoBehaviour
     {
         isHeld = false;
         //Debug.Log(Vector2.Distance(AnswerPos, transform.position));
-        if (Vector2.Distance(AnswerPos, transform.position) < snapOffset)
+        if(isright==false)
         {
-            audioSource.clip = correctBGM;
-            audioSource.Play();
-            this.gameObject.transform.localPosition = AnswerPos;
-            mix.correctCnt++;
-            drag.enabled = false;
+            if (Vector2.Distance(AnswerPos, transform.position) < snapOffset)
+            {
+                audioSource.clip = correctBGM;
+                audioSource.Play();
+                this.gameObject.transform.localPosition = AnswerPos;
+                mix.correctCnt++;
+                drag.enabled = false;
+                isHeld = true;
+                isright = true;
 
-            //transform.SetParent(puzzle.transform);
-            //transform.localPosition = Vector3.zero;
-        }
-        else
-        {
-            audioSource.clip = wrongBGM;
-            audioSource.Play();
+                //transform.SetParent(puzzle.transform);
+                //transform.localPosition = Vector3.zero;
+            }
+            else
+            {
+                audioSource.clip = wrongBGM;
+                audioSource.Play();
 
+            }
         }
+        
         
     }
 
