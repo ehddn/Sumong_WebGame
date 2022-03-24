@@ -14,6 +14,7 @@ public class Certification : MonoBehaviour
     public Text score;
     public Text avoid;
     public Text puzzle;
+    public Text totalScore;
 
     GameManager gameMg;
     
@@ -32,10 +33,36 @@ public class Certification : MonoBehaviour
         score.text = score.text + gameMg.cntRight;
         avoid.text += gameMg.findAvoid;
         puzzle.text += gameMg.findPuzzle;
+        if ((gameMg.findPuzzle == "O")&&(gameMg.cntRight==31))
+        {
+            totalScore.text += " A+";
+        }
+        else if((gameMg.findPuzzle == "O") && (gameMg.cntRight <= 27))
+        {
+            totalScore.text += " A";
+        }
+        else if ((gameMg.cntRight >= 20)&&(gameMg.cntRight <= 24))
+        {
+            totalScore.text += " B+";
+        }
+        else if ((gameMg.cntRight >= 15) && (gameMg.cntRight <= 19))
+        {
+            totalScore.text += " B";
+        }
+        else if ((gameMg.cntRight >= 10) && (gameMg.cntRight <= 14))
+        {
+            totalScore.text += " C";
+        }
+        else if ((gameMg.cntRight >= 1) && (gameMg.cntRight <= 9))
+        {
+            totalScore.text += " D";
+        }
+        else if ((gameMg.cntRight==0))
+        {
+            totalScore.text += " F";
+        }
 
 
-
-       
 
     }
 

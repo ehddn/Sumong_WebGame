@@ -789,6 +789,7 @@ MonoBehaviour:
   score: {fileID: 944790984}
   avoid: {fileID: 828662936}
   puzzle: {fileID: 574057753}
+  totalScore: {fileID: 1860258445}
 --- !u!1 &680681797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1346,7 @@ GameObject:
   - component: {fileID: 1153271706}
   - component: {fileID: 1153271705}
   m_Layer: 0
-  m_Name: Score
+  m_Name: QuizScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,12 +1422,12 @@ GameObject:
   - component: {fileID: 1860258446}
   - component: {fileID: 1860258445}
   m_Layer: 0
-  m_Name: text
+  m_Name: TotalScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1860258444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1443,7 +1444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 152}
+  m_AnchoredPosition: {x: 532, y: -117}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860258445
@@ -1479,7 +1480,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBC1C\uACAC\uD55C \uC228\uACA8\uC9C4 \uAC8C\uC784"
+  m_Text: "\uCD5C\uC885 \uC810\uC218: "
 --- !u!222 &1860258446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1500,7 +1501,7 @@ GameObject:
   - component: {fileID: 2011485590}
   - component: {fileID: 2011485589}
   m_Layer: 0
-  m_Name: FindEasterEgg
+  m_Name: TextResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1583,7 +1584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &2133252067
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1703,7 +1704,7 @@ MonoBehaviour:
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
   avoid_bgm: {fileID: 0}
-  cntRight: 10
+  cntRight: 15
   findAvoid: O
   findPuzzle: X
   score: 
