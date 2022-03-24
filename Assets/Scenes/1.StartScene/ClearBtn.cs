@@ -32,6 +32,7 @@ public class ClearBtn : MonoBehaviour
     {
         if (gameMg.cntRight >= 25)
         {
+            gameMg.turnAudio();
             SceneManager.LoadScene("MoveToEasterEggAvoid");
         }
         else

@@ -124,3 +124,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: -150
   speed: 2.5
+  sound: {fileID: 8300000, guid: e7343e69882f9984c9061129244de6f4, type: 3}
+  soundPrefab: {fileID: 6200771071471713061, guid: 3b0b711e0a1d9b044910a551da753b53, type: 3}

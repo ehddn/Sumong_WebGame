@@ -65,7 +65,7 @@ public class TestGenerator : MonoBehaviour
                 {
                     board.SetActive(true);
                     board.transform.GetChild(0).gameObject.SetActive(false);
-                    board.transform.GetChild(1).GetComponent<Text>().text = player.score.ToString() + "��";
+                    board.transform.GetChild(1).GetComponent<Text>().text = player.score.ToString() + "점";
                     result.gameObject.SetActive(true);
                     if (player.score >= 800)
                     {

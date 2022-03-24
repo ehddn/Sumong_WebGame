@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private AudioSource audio;
     public AudioClip seoul_bgm;
     public AudioClip cheonan_bgm;
+    public AudioClip avoid_bgm;
 
 
     //certificate
@@ -59,6 +60,11 @@ public class GameManager : MonoBehaviour
         else if (playing_cheonan == true)
         {
             audio.clip = cheonan_bgm;
+            audio.Play();
+        }
+        else
+        {
+            audio.clip = avoid_bgm;
             audio.Play();
         }
     }

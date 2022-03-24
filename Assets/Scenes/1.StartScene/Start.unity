@@ -2642,6 +2642,7 @@ MonoBehaviour:
   playing_cheonan: 0
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
+  avoid_bgm: {fileID: 8300000, guid: d4d8df3313278394ebe8bae9943713fe, type: 3}
   cntRight: 0
   findAvoid: 
   findPuzzle: 

@@ -7,6 +7,9 @@ public class GetScore : MonoBehaviour
     public int score;
     public float speed;
 
+    public AudioClip sound;
+    public GameObject soundPrefab;
+
     private PlayerAvoid player;
 
     void Start()
@@ -30,6 +33,9 @@ public class GetScore : MonoBehaviour
         if(collision.gameObject.name == "Player")
         {
             player.score += score;
+            GameObject soundPlay = Instantiate(soundPrefab) as GameObject;
+            soundPlay.GetComponent<AudioSource>().clip = sound;
+            soundPlay.GetComponent<AudioSource>().Play();
             Destroy(this.gameObject);
         }
     }
