@@ -35,14 +35,14 @@ public class MixPuzzle : MonoBehaviour
             int type = Random.Range(1, 3);
             if (type == 1)
             {
-                float randomX = Random.Range(-7, -4);
-                float randomY = Random.Range(0.5f, -1.5f);
+                float randomX = Random.Range(-7f, -6.5f);
+                float randomY = Random.Range(-1.5f, 2.8f);
                 puzzlePieces[i].transform.position = new Vector2(randomX, randomY);
             }
             else if(type==2)
             {
-                float randomX = Random.Range(4.5f, 7);
-                float randomY = Random.Range(0.5f, -1.5f);
+                float randomX = Random.Range(5.5f, 6f);
+                float randomY = Random.Range(-1.5f, 2.8f);
                 puzzlePieces[i].transform.position = new Vector2(randomX, randomY);
             }
             

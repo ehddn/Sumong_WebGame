@@ -8,6 +8,7 @@ public class DragAndDrop : MonoBehaviour
 {
     public float snapOffset = 10;
     public Vector2 AnswerPos;
+    public Vector2 spawnPos;
     public int piece_no;
     public GameObject puzzle;
 
@@ -30,6 +31,11 @@ public class DragAndDrop : MonoBehaviour
         AnswerPos = new Vector2(transform.position.x, transform.position.y-1);
         drag = this.GetComponent<DragAndDrop>();
         audioSource = GetComponent<AudioSource>();
+    }
+    void Start()
+    {
+        spawnPos = transform.localPosition;
+        
     }
     void OnEnable()
     {
@@ -95,6 +101,7 @@ public class DragAndDrop : MonoBehaviour
             else
             {
                 audioSource.clip = wrongBGM;
+                transform.localPosition = spawnPos;
                 audioSource.Play();
 
             }
