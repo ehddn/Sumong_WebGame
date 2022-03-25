@@ -38,6 +38,7 @@ public class MixPuzzle : MonoBehaviour
                 float randomX = Random.Range(-7f, -6.5f);
                 float randomY = Random.Range(-1.5f, 2.8f);
                 puzzlePieces[i].transform.position = new Vector2(randomX, randomY);
+                puzzlePieces[i].GetComponent<DragAndDrop>().spawnPos = new Vector2(randomX, randomY);
             }
             else if(type==2)
             {
