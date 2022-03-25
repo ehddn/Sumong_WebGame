@@ -932,7 +932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.9, y: 5}
+  m_AnchoredPosition: {x: -7.9, y: 5}
   m_SizeDelta: {x: 3, y: 1.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &882135030
@@ -1007,7 +1007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.9, y: 4.1}
+  m_AnchoredPosition: {x: -7.9, y: 4.1}
   m_SizeDelta: {x: 3, y: 0.5}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &921828322
@@ -1243,7 +1243,11 @@ MonoBehaviour:
   playing_cheonan: 0
   seoul_bgm: {fileID: 0}
   cheonan_bgm: {fileID: 0}
+  avoid_bgm: {fileID: 0}
   cntRight: 0
+  findAvoid: 
+  findPuzzle: 
+  score: 
 --- !u!4 &1176025621
 Transform:
   m_ObjectHideFlags: 0
@@ -1421,7 +1425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.9, y: 5}
+  m_AnchoredPosition: {x: -7.9, y: 5}
   m_SizeDelta: {x: 3, y: 0.89}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1390559669

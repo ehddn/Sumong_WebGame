@@ -356,8 +356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 42.349976, y: -367}
-  m_SizeDelta: {x: 2879.34, y: 450.72998}
+  m_AnchoredPosition: {x: 1.48, y: -367}
+  m_SizeDelta: {x: 2797.62, y: 450.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417234747
 MonoBehaviour:
@@ -1358,6 +1358,7 @@ MonoBehaviour:
   cntRight: 0
   findAvoid: 
   findPuzzle: 
+  score: 
 --- !u!4 &1630810600
 Transform:
   m_ObjectHideFlags: 0
