@@ -62,6 +62,12 @@ public class PlayerAvoid : MonoBehaviour
                 rigidbody.MovePosition(new Vector2(transform.position.x - 0.1f, transform.position.y));
                 transform.rotation = Quaternion.Euler(0, 0, 0);
             }
+
+            if (right && left)
+            {
+                rigidbody.MovePosition(new Vector2(transform.position.x, transform.position.y));
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
         }
 
         scoreText.text = "점수: " + score;
@@ -70,6 +76,7 @@ public class PlayerAvoid : MonoBehaviour
     public void OnRightClicked()
     {
         right = true;
+        left = false;
     }
 
     public void OnRightReleased()
@@ -80,6 +87,7 @@ public class PlayerAvoid : MonoBehaviour
     public void OnLeftClicked()
     {
         left = true;
+        right = false;
     }
 
     public void OnLeftReleased()
