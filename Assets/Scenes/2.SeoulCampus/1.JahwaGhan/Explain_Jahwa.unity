@@ -581,7 +581,7 @@ MonoBehaviour:
   clickCnt: 0
   nextClick: 10
   nextScene: Quiz_Jahwa
-  speed: 0.05
+  speed: 0.02
   campus: Seoul
 --- !u!1 &1760896153
 GameObject:

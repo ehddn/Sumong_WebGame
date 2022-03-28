@@ -24,7 +24,7 @@ public class Sumung : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (turn == false)
+        /*if (turn == false)
         {
             Appear();
         }
@@ -32,10 +32,16 @@ public class Sumung : MonoBehaviour
         {
             Disappear();
         }
-        //Debug.Log(r);
-        
+        //Debug.Log(r);*/
+        Appear();
         
 
+    }
+
+    public void Onclick()
+    {
+        Debug.Log("click");
+        SceneManager.LoadScene("Start");
     }
     public void Appear()
     {

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class WriteQuizText : MonoBehaviour
 {
     public Text textBox;
     public List<Text> text;
+    
     public List<int> answerList;
     private string message;
     public int quizCnt = 0;
@@ -29,6 +31,10 @@ public class WriteQuizText : MonoBehaviour
 
     //결과보드
     public GameObject resultBoard;
+    public List<Text> quizExplain;
+    //public Text answerBox;
+    public TMP_Text answerBox;
+
 
     Coroutine col;
 
@@ -72,13 +78,14 @@ public class WriteQuizText : MonoBehaviour
 
     public void ClickBtn(int answer)
     {
-        
-        
+
+        answerBox.text = quizExplain[quizCnt].text;
         if (answer == answerList[quizCnt])
         {
             Debug.Log("정답!");
             gameMg.cntRight++;
             isRight = true;
+            
             resultBoard.SetActive(true);
 
             if (quizCnt != lastQuiz)

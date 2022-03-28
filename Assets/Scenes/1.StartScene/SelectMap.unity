@@ -889,7 +889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &770908795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,8 +906,8 @@ MonoBehaviour:
   cheonan_stage: 0
   user_name: 
   user_phoneNum: 
-  seoulClear: 1
-  cheonanClear: 1
+  seoulClear: 0
+  cheonanClear: 0
   playing_seoul: 1
   playing_cheonan: 1
   seoul_bgm: {fileID: 8300000, guid: 3b45a7e87455437408c50dce2dd0b081, type: 3}

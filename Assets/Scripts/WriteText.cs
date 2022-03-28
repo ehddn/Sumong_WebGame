@@ -14,8 +14,8 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
     public int clickCnt=0;
     public int nextClick = 0;
     public string nextScene;
-    public float speed;
-
+    //public float speed;
+    private float speed = 0.02f;
     public string campus;
 
     Coroutine col;

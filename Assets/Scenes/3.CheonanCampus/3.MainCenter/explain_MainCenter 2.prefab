@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1237423843388750199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6411223936251501243}
+  - component: {fileID: 485899922776719058}
+  - component: {fileID: 6081909985201685917}
+  m_Layer: 0
+  m_Name: explain_MainCenter 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6411223936251501243
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237423843388750199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &485899922776719058
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237423843388750199}
+  m_CullTransparentMesh: 1
+--- !u!114 &6081909985201685917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237423843388750199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "1) \uB2E4\uC591\uD55C \uC804\uC790\uACF5\uD559 \uAD00\uB828 \uC0B0\uC5C5\uACC4
+    \uBC0F IT \uC0B0\uC5C5\uACC4\uC640\uC758 \uD611\uB825\uC744 \uBC14\uD0D5\uC73C\uB85C
+    \uD604\uC7A5\uC9C0\uD5A5\uC801, \uC218\uC694\uC9C0\uD5A5\uC801 \uAD50\uC721\uC744
+    \uC81C\uACF5\uD558\uB294 \uC804\uC790\uACF5\uD559\uACFC\n\n2) 21\uC138\uAE30
+    \uC9C0\uB2A5\uC815\uBCF4\uD654 \uC0AC\uD68C\uC758 \uADFC\uAC04\uC774 \uB418\uB294
+    \uC2E4\uC6A9\uC801\uC778 \uC18C\uD504\uD2B8\uC6E8\uC5B4 \uAC1C\uBC1C, \uAE30\uD68D,
+    \uC6B4\uC601 \uB4F1\uC5D0 \uB2A5\uD55C \uCC3D\uC758\uC801 \uC804\uBB38\uC778\uB825
+    \uC591\uC131\uC744 \uBAA9\uD45C\uB85C \uD558\uB294 \uC18C\uD504\uD2B8\uC6E8\uC5B4\uD559\uACFC\r\n\n3)
+    \uD658\uACBD\uC624\uC5FC \uBC29\uC9C0 \uBC0F \uC81C\uC5B4, \uC2E0\uC7AC\uC0DD\uC5D0\uB108\uC9C0,
+    \uC0DD\uBA85\uACF5\uD559 \uB4F1 \uD2B9\uD654 \uBD84\uC57C\uC5D0 \uC751\uC6A9\uD560
+    \uC218 \uC788\uB294 \uC774\uB860\uC218\uC5C5 \uBC0F \uC2E4\uD5D8\xB7\uC2E4\uC2B5\uC744
+    \uD1B5\uD574 \uC774\uB860\uACFC \uC2E4\uBB34 \uC5ED\uB7C9\uC744 \uACB8\uBE44\uD55C
+    \uB2E4\uBA74\uC801 \uACF5\uD559 \uC804\uBB38\uAC00\uB97C \uBC30\uCD9C\uD558\uB294
+    \uADF8\uB9B0\uD654\uD559\uACF5\uD559\uACFC\r\n\n\uCD1D 3\uAC1C\uC758 \uACF5\uACFC\uB300\uD559\uC73C\uB85C
+    \uAD6C\uC131\uB418\uC5B4\uC788\uC2B5\uB2C8\uB2E4."
