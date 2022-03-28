@@ -66,6 +66,8 @@ public class TestGenerator : MonoBehaviour
                     board.SetActive(true);
                     board.transform.GetChild(0).gameObject.SetActive(false);
                     board.transform.GetChild(1).GetComponent<Text>().text = player.score.ToString() + "점";
+                    board.transform.GetChild(3).gameObject.SetActive(true);
+                    board.transform.GetChild(4).gameObject.SetActive(true);
                     result.gameObject.SetActive(true);
                     if (player.score >= 800)
                     {
@@ -101,7 +103,8 @@ public class TestGenerator : MonoBehaviour
                     start = false;
                     //Debug.Log("게임 끗");
                     gameMg.findAvoid = "O"+"재수강 학점: "+gameMg.score;
-                    StartCoroutine(moveNextScene());
+
+                    //StartCoroutine(moveNextScene());
                     //�� �� �� ���� ������ �Ѿ��
                 }
                 else
@@ -163,9 +166,14 @@ public class TestGenerator : MonoBehaviour
         start = true;
         board.SetActive(false);
     }
-    IEnumerator moveNextScene()
+
+    public void moveNextScene()
     {
-        yield return new WaitForSeconds(2.0f);
         SceneManager.LoadScene(nextScene);
+    }
+
+    public void restartScene()
+    {
+        SceneManager.LoadScene("Avoid");
     }
 }

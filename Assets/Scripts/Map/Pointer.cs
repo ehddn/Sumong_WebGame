@@ -35,7 +35,7 @@ public class Pointer : MonoBehaviour
             {
                 Vector3 dir = wayPoint[i + 1].transform.position - wayPoint[i].transform.position;
                 dir = dir.normalized;
-                transform.position = transform.position + dir * Time.deltaTime;
+                transform.position = transform.position + dir * 2.5f * Time.deltaTime;
                 transform.position = new Vector3(transform.position.x, transform.position.y, -5);
 
                 degree = (now - target).magnitude;
