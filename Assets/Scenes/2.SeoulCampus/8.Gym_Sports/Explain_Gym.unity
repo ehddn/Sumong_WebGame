@@ -254,11 +254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4069080140406529222, guid: d5333b139fc054446930b73a4c2a5189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -446,8 +446,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622072336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -273, y: -319, z: -21}
-  m_LocalScale: {x: 150, y: 100, z: 51.899998}
+  m_LocalPosition: {x: -273, y: -269, z: -21}
+  m_LocalScale: {x: 170, y: 170, z: 51.899998}
   m_Children: []
   m_Father: {fileID: 27521261}
   m_RootOrder: 0
@@ -627,7 +627,6 @@ MonoBehaviour:
   clickCnt: 0
   nextClick: 4
   nextScene: Seoul
-  speed: 0.05
   campus: Seoul
 --- !u!114 &1877660874
 MonoBehaviour:
