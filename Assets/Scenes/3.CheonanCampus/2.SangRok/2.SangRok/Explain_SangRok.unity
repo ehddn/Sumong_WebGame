@@ -411,7 +411,8 @@ MonoBehaviour:
   - {fileID: 6676633532114803397, guid: 9c5fb0630649ff94e8019757eb8a911b, type: 3}
   clickCnt: 0
   nextClick: 4
-  nextScene: Quiz_SangRok
+  nextScene: Cheonan
+  speed: 0.05
   campus: Cheonan
 --- !u!114 &1184540809
 MonoBehaviour:

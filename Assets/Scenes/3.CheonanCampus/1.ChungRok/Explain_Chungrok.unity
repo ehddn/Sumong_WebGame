@@ -849,13 +849,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 461375427}
   text:
-  - {fileID: 7055381855295807264, guid: f91e922dfd6a6e94f83f3b9fd89e37c0, type: 3}
   - {fileID: 7055381855295807264, guid: 015396dc58f62f048960a2d1b7f17c1d, type: 3}
   - {fileID: 7055381855295807264, guid: b27b756db3b6d424ba344e932098b76e, type: 3}
+  - {fileID: 7055381855295807264, guid: f91e922dfd6a6e94f83f3b9fd89e37c0, type: 3}
   clickCnt: 0
   nextClick: 6
   nextScene: Cheonan
-  speed: 0.05
   campus: Cheonan
 --- !u!114 &1768875290
 MonoBehaviour:

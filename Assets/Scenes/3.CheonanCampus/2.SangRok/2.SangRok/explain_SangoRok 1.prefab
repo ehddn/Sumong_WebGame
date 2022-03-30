@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1257273694589283774
+--- !u!1 &4363874827837095158
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 194096519666277939}
-  - component: {fileID: 4430482395234730287}
-  - component: {fileID: 5307280528957605892}
+  - component: {fileID: 4175655994627566814}
+  - component: {fileID: 5435338706221037436}
+  - component: {fileID: 6676633532114803397}
   m_Layer: 0
-  m_Name: explain_Hannuli
+  m_Name: explain_SangoRok 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &194096519666277939
+--- !u!224 &4175655994627566814
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257273694589283774}
+  m_GameObject: {fileID: 4363874827837095158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -37,21 +37,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4430482395234730287
+--- !u!222 &5435338706221037436
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257273694589283774}
+  m_GameObject: {fileID: 4363874827837095158}
   m_CullTransparentMesh: 1
---- !u!114 &5307280528957605892
+--- !u!114 &6676633532114803397
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257273694589283774}
+  m_GameObject: {fileID: 4363874827837095158}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -78,6 +78,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC774\uC81C \uAC70\uC758 \uB2E4 \uC654\uC2B5\uB2C8\uB2E4!\r\n\uD55C\uB204\uB9AC\uAD00\uC774\uC5D0\uC694!\r\n\n\uD55C\uB204\uB9AC\uAD00\uC740
-    I\uAD00\uC785\uB2C8\uB2E4.\n1\uCE35\uC5D0 \uCE74\uD398\uAC00 \uC788\uACE0 9\uCE35\uC5D0
-    \uC2DD\uB2F9\uC774 \uC788\uC73C\uB2C8 \uB9CE\uC740 \uC774\uC6A9  \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4. "
+  m_Text: "\uC735\uD569\uAE30\uC220\uB300\uD559\uC740 \uACFC\uD559\uC801 \uD0D0\uAD6C\uB97C
+    \uD1B5\uD574 \uAC74\uAC15\uD558\uACE0 \uD589\uBCF5\uD55C \uC0B6\uC758 \uBC29\uBC95\uC744
+    \uC81C\uC2DC\uD558\uACE0\uC790 \uB2E4\uC591\uD55C \uD559\uC81C \uAC04 \uC735\uD569\uAD50\uC721\uC744
+    \uC2E4\uC2DC\uD558\uBA70, \n\n\uC804\uACF5\uBD84\uC57C \uAE30\uBC18\uC758 \uC735\uBCF5\uD569\uC801
+    \uC0AC\uACE0\uB825\uACFC \uCC3D\uC758\uB825\uC744 \uBC30\uC591\uD558\uB294 \uAD50\uC721\uC744
+    \uD1B5\uD574\uC11C \uBBF8\uB798\uC0AC\uD68C\uAC00 \uC694\uAD6C\uD558\uB294 \uD601\uC2E0\uD615
+    \uC778\uC7AC\uB97C \uC591\uC131\uD558\uB294 \uB300\uD559\uC73C\uB85C \n\n\n\uAE00\uB85C\uBC8C\uAE08\uC735\uACBD\uC601\uD559\uBD80,
+    \uC2DD\uBB3C\uC2DD\uD488\uACF5\uD559\uACFC, \uADF8\uB9B0\uC2A4\uB9C8\uD2B8\uC2DC\uD2F0\uD559\uACFC,
+    \uAC04\uD638\uD559\uACFC, \uC2A4\uD3EC\uCE20\uACBD\uC601\uC804\uACF5, \uC0AC\uD68C\uCCB4\uC721\uC804\uACF5\uC73C\uB85C
+    \uAD6C\uC131\uB418\uC5B4 \uC788\uC5B4"
