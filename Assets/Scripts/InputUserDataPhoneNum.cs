@@ -16,6 +16,8 @@ public class InputUserDataPhoneNum : MonoBehaviour
     public TMP_InputField input_userPhoneNum;
     StartSceneController startScene;
 
+    public GameObject test;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +47,7 @@ public class InputUserDataPhoneNum : MonoBehaviour
             raycastImg.raycastTarget = true;
             gameMg.user_phoneNum = input_userPhoneNum.text;
             startScene.col=startScene.StartCoroutine(startScene.Typing(startScene.textBox, startScene.message, startScene.speed, 2));
+            test.gameObject.SetActive(false);
             //startScene.clickCnt++;
             //input_userPhoneNum.gameObject.SetActive(false);
         }

@@ -54,7 +54,7 @@ public class InputUserData : MonoBehaviour
             startScene.col=startScene.StartCoroutine(startScene.Typing(startScene.textBox, startScene.message, startScene.speed, 1));
             startScene.clickCnt++;
             
-            //test.gameObject.SetActive(false);
+            test.gameObject.SetActive(false);
             
 
         }
