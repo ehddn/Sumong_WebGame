@@ -975,6 +975,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1172949152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244378332989623174, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047233656980291528, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_Name
+      value: LastMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047233656980291528, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7676243e4a0b97a4f9b3076aa4508fd9, type: 3}
 --- !u!1 &1188308500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +1174,7 @@ MonoBehaviour:
   - {fileID: 6310085309228642967, guid: 15178b8526394174ea3f562c4111da23, type: 3}
   answerList: 03000000010000000100000001000000
   quizCnt: 0
-  nextScene: Cheonan
+  nextScene: MoveToPuzzleCheonan
   isQuiz: 0
   isRight: 0
   speed: 0.02

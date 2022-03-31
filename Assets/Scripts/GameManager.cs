@@ -78,9 +78,9 @@ public class GameManager : MonoBehaviour
             seoul_stage = 8;
         }
 
-        if (cheonan_stage >= 7)
+        if (cheonan_stage >= 6)
         {
-            cheonan_stage = 6;
+            cheonan_stage = 5;
         }
 
         if (SceneManager.GetActiveScene().name == "Ending") 
