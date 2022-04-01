@@ -59,21 +59,13 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
         {
             if(nextScene == "Seoul" || nextScene == "Cheonan")
             {
-                GameManager.gameManager.seoul_stage++;
-                GameManager.gameManager.cheonan_stage++;
-
-                if (campus == "Seoul" && GameManager.gameManager.seoul_stage == 9)
+                if (campus == "Seoul")
                 {
-                    GameManager.gameManager.seoul_stage = 0;
-                    GameManager.gameManager.cheonan_stage = 0;
-                    SceneManager.LoadScene(nextScene);
+                    GameManager.gameManager.seoul_stage++;
                 }
-                else if (campus == "Cheonan" && GameManager.gameManager.cheonan_stage == 7)
+                else if (campus == "Cheonan")
                 {
-                    GameManager.gameManager.seoul_stage = 0;
-                    GameManager.gameManager.cheonan_stage = 0;
-                    SceneManager.LoadScene(nextScene);
-                    //result Scene
+                    GameManager.gameManager.cheonan_stage++;
                 }
 
                 SceneManager.LoadScene(nextScene);
@@ -107,5 +99,7 @@ public class WriteText : MonoBehaviour,IPointerClickHandler
         
 
     }
+
+    
     
 }

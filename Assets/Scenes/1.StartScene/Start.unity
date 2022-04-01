@@ -2633,7 +2633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b1e555752703a34384832de85c77e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seoul_stage: 2
+  seoul_stage: 0
   cheonan_stage: 0
   user_name: 
   user_phoneNum: 

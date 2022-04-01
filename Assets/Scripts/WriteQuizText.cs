@@ -13,6 +13,7 @@ public class WriteQuizText : MonoBehaviour
     
     public List<int> answerList;
     private string message;
+    private int rightNum;
     public int quizCnt = 0;
     public string nextScene;
     public bool isQuiz=false;
@@ -48,6 +49,8 @@ public class WriteQuizText : MonoBehaviour
         btn3 = GameObject.Find("Answer3").GetComponent<QuizBtn>();
         btn4 = GameObject.Find("Answer4").GetComponent<QuizBtn>();
         //resultBoard = GameObject.Find("ResultBoard").GetComponent<ResultBoard>();
+
+        rightNum = 0;
     }
 
     // Update is called once per frame
@@ -83,7 +86,7 @@ public class WriteQuizText : MonoBehaviour
         if (answer == answerList[quizCnt])
         {
             Debug.Log("정답!");
-            gameMg.cntRight++;
+            rightNum++;
             isRight = true;
             
             resultBoard.SetActive(true);
@@ -129,30 +132,20 @@ public class WriteQuizText : MonoBehaviour
     }
     public void LoadnextScene()
     {
-        if(quizCnt==lastQuiz)
+        if (quizCnt == lastQuiz)
         {
-            GameManager.gameManager.seoul_stage++;
-            GameManager.gameManager.cheonan_stage++;
-
-            if (campus == "Seoul" && GameManager.gameManager.seoul_stage == 9)
+            if (campus == "Seoul")
             {
-                GameManager.gameManager.seoul_stage = 0;
-                GameManager.gameManager.cheonan_stage = 0;
-                SceneManager.LoadScene(nextScene);
+                GameManager.gameManager.seoul_stage++;
             }
-            else if (campus == "Cheonan" && GameManager.gameManager.cheonan_stage == 7)
+            else if (campus == "Cheonan")
             {
-                GameManager.gameManager.seoul_stage = 0;
-                GameManager.gameManager.cheonan_stage = 0;
-                SceneManager.LoadScene(nextScene);
-                //result Scene
+                GameManager.gameManager.cheonan_stage++;
             }
 
-            SceneManager.LoadScene(nextScene);
+            gameMg.cntRight += rightNum;
+            SceneManager.LoadScene(nextScene);  
         }
     }
-
-    
-
 
 }

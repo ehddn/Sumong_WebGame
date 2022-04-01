@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public bool playing_seoul;
     public bool playing_cheonan;
 
-    private AudioSource audio;
+    public AudioSource audio;
     public AudioClip seoul_bgm;
     public AudioClip cheonan_bgm;
     public AudioClip avoid_bgm;
@@ -63,7 +63,6 @@ public class GameManager : MonoBehaviour
             audio.clip = cheonan_bgm;
             audio.Play();
         }
-        
         else
         {
             audio.clip = avoid_bgm;
@@ -73,14 +72,16 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if(seoul_stage >= 9)
+        if(seoul_stage >= 8)
         {
             seoul_stage = 8;
+            seoulClear = true;
         }
 
-        if (cheonan_stage >= 6)
+        if (cheonan_stage >= 5)
         {
             cheonan_stage = 5;
+            cheonanClear = true;
         }
 
         if (SceneManager.GetActiveScene().name == "Ending") 
@@ -88,4 +89,6 @@ public class GameManager : MonoBehaviour
             audio.mute = true;
         }
     }
+
+
 }
