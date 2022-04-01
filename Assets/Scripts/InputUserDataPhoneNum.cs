@@ -47,6 +47,7 @@ public class InputUserDataPhoneNum : MonoBehaviour
             raycastImg.raycastTarget = true;
             gameMg.user_phoneNum = input_userPhoneNum.text;
             startScene.col=startScene.StartCoroutine(startScene.Typing(startScene.textBox, startScene.message, startScene.speed, 2));
+            startScene.clickCnt++;
             test.gameObject.SetActive(false);
             //startScene.clickCnt++;
             //input_userPhoneNum.gameObject.SetActive(false);
