@@ -25,6 +25,7 @@ public class SelectBtn : MonoBehaviour
         gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
         gameMg.playing_cheonan = false;
         gameMg.playing_seoul = false;
+
         if (type == 0)
         {
             if (gameMg.seoulClear == true)
@@ -32,6 +33,7 @@ public class SelectBtn : MonoBehaviour
                 checkImg.gameObject.SetActive(true);
                 btn.interactable = false;
             }
+           
         }
         else if (type == 1)
         {
@@ -40,6 +42,7 @@ public class SelectBtn : MonoBehaviour
                 checkImg.gameObject.SetActive(true);
                 btn.interactable = false;
             }
+           
         }
         
     }
@@ -56,15 +59,33 @@ public class SelectBtn : MonoBehaviour
             gameMg.playing_seoul = true;
             //gameMg.seoul_stage = 0;
             //gameMg.cheonan_stage = 0;
+            if (gameMg.seoul_stage == 9)
+            {
+                SceneManager.LoadScene("MoveToPuzzleSeoul");
+            }
+            else
+            {
+                SceneManager.LoadScene(nextScene);
+            }
         }
         else if (type == 1)
         {
             gameMg.playing_cheonan = true;
             //gameMg.seoul_stage = 0;
             //gameMg.cheonan_stage = 0;
+            if (gameMg.cheonan_stage == 6)
+            {
+                SceneManager.LoadScene("MoveToPuzzleCheonan");
+
+            }
+            else
+            {
+                SceneManager.LoadScene(nextScene);
+            }
         }
+        
         gameMg.turnAudio();
-        SceneManager.LoadScene(nextScene);
+        //SceneManager.LoadScene(nextScene);
     }
     public void OnTouch()
     {

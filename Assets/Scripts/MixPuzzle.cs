@@ -12,10 +12,13 @@ public class MixPuzzle : MonoBehaviour
     public int correctCnt=0;
     public GameObject resultBoard;
     public GameObject pieces;
+
+    GameManager gameMg;
     //public GameObject backBoard;
     // Start is called before the first frame update
     void Start()
     {
+        gameMg = GameObject.Find("GameManager").GetComponent<GameManager>();
         MixPieces();
     }
 
@@ -24,6 +27,14 @@ public class MixPuzzle : MonoBehaviour
     {
         if (correctCnt == 16)
         {
+            if (gameMg.playing_seoul == true)
+            {
+                gameMg.seoulClear = true;
+            }
+            else if (gameMg.playing_cheonan == true)
+            {
+                gameMg.cheonanClear = true;
+            }
             StartCoroutine(showResult());
         }
     }

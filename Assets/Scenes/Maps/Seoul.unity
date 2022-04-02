@@ -1190,6 +1190,7 @@ MonoBehaviour:
   cheonanClear: 0
   playing_seoul: 0
   playing_cheonan: 0
+  audio: {fileID: 0}
   seoul_bgm: {fileID: 0}
   cheonan_bgm: {fileID: 0}
   avoid_bgm: {fileID: 0}

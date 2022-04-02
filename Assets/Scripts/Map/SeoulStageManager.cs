@@ -24,32 +24,35 @@ public class SeoulStageManager : MonoBehaviour
 
     void Start()
     {
-        wayPoint = new List<GameObject>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        
+        
+            wayPoint = new List<GameObject>();
+            player = GameObject.FindGameObjectWithTag("Player");
 
-        for (int i = 0; i < way.transform.childCount; i++)
-        {
-            wayPoint.Add(way.transform.GetChild(i).gameObject);
-        }
-
-        for (int i = 0; i < wayPoint.Count; i++)
-        {
-            GameObject locker = Instantiate(lockPrefeb, list.transform) as GameObject;
-            locker.transform.position = wayPoint[i].transform.position;
-        }
-
-        if(GameManager.gameManager.seoul_stage > 0)
-        {
-            GameObject pointer = Instantiate(pointerPrefab, wayPoint[GameManager.gameManager.seoul_stage - 1].transform.position, Quaternion.Euler(0, 0, 0));
-            List<GameObject> pointerWay = new List<GameObject>();
-            pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage - 1]);
-            for (int i = 0; i < wayPoint[GameManager.gameManager.seoul_stage - 1].transform.childCount; i++)
+            for (int i = 0; i < way.transform.childCount; i++)
             {
-                pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage - 1].transform.GetChild(i).gameObject);
+                wayPoint.Add(way.transform.GetChild(i).gameObject);
             }
-            pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage]);
-            StartCoroutine(pointer.GetComponent<Pointer>().move(pointerWay));
-        }
+
+            for (int i = 0; i < wayPoint.Count; i++)
+            {
+                GameObject locker = Instantiate(lockPrefeb, list.transform) as GameObject;
+                locker.transform.position = wayPoint[i].transform.position;
+            }
+
+            if (GameManager.gameManager.seoul_stage > 0)
+            {
+                GameObject pointer = Instantiate(pointerPrefab, wayPoint[GameManager.gameManager.seoul_stage - 1].transform.position, Quaternion.Euler(0, 0, 0));
+                List<GameObject> pointerWay = new List<GameObject>();
+                pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage - 1]);
+                for (int i = 0; i < wayPoint[GameManager.gameManager.seoul_stage - 1].transform.childCount; i++)
+                {
+                    pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage - 1].transform.GetChild(i).gameObject);
+                }
+                pointerWay.Add(wayPoint[GameManager.gameManager.seoul_stage]);
+                StartCoroutine(pointer.GetComponent<Pointer>().move(pointerWay));
+            }
+        
     }
 
     void Update()

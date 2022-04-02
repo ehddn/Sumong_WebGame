@@ -910,10 +910,11 @@ MonoBehaviour:
   cheonanClear: 0
   playing_seoul: 1
   playing_cheonan: 1
+  audio: {fileID: 0}
   seoul_bgm: {fileID: 8300000, guid: 3b45a7e87455437408c50dce2dd0b081, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: c6877e8a18130d342bbbd59d6b904990, type: 3}
   avoid_bgm: {fileID: 8300000, guid: 1045aca994f24994b85c97d00f863987, type: 3}
-  cntRight: 10
+  cntRight: 0
   findAvoid: 
   findPuzzle: 
   score: 
