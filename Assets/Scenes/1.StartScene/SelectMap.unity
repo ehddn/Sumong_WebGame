@@ -902,7 +902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b1e555752703a34384832de85c77e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seoul_stage: 2
+  seoul_stage: 8
   cheonan_stage: 0
   user_name: 
   user_phoneNum: 
@@ -2486,7 +2486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7, y: -7}
+  m_AnchoredPosition: {x: 1.7, y: -5}
   m_SizeDelta: {x: 3238.5, y: 2096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057291299
