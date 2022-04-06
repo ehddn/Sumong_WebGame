@@ -2119,7 +2119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5, y: -28.000027}
+  m_AnchoredPosition: {x: 9, y: -28.000027}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1503825388
@@ -2781,6 +2781,7 @@ MonoBehaviour:
   cheonanClear: 1
   playing_seoul: 0
   playing_cheonan: 0
+  audio: {fileID: 0}
   seoul_bgm: {fileID: 8300000, guid: 8177271aae4c9c6489e49740a4ab60eb, type: 3}
   cheonan_bgm: {fileID: 8300000, guid: 8e0f1099215b7be41893c9dd17bcb3fe, type: 3}
   avoid_bgm: {fileID: 0}
