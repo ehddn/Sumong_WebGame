@@ -43,7 +43,7 @@ public class Certification : MonoBehaviour
         score.text = score.text + gameMg.cntRight;
         avoid.text += gameMg.findAvoid;
         puzzle.text += gameMg.findPuzzle;
-        if ((gameMg.findPuzzle == "O")&&(gameMg.cntRight==31))
+        /*if ((gameMg.findPuzzle == "O")&&(gameMg.cntRight==31))
         {
             totalScore.text += " A+";
         }
@@ -70,8 +70,35 @@ public class Certification : MonoBehaviour
         else if ((gameMg.cntRight==0))
         {
             totalScore.text += " F";
+        }*/
+        if ((gameMg.cntRight >= 31))
+        {
+            totalScore.text += " A+";
         }
-
+        else if ((gameMg.cntRight >= 27) && (gameMg.cntRight <= 30))
+        {
+            totalScore.text += " A";
+        }
+        else if ((gameMg.cntRight >= 20) && (gameMg.cntRight <= 26))
+        {
+            totalScore.text += " B+";
+        }
+        else if ((gameMg.cntRight >= 15) && (gameMg.cntRight <= 19))
+        {
+            totalScore.text += " B";
+        }
+        else if ((gameMg.cntRight >= 10) && (gameMg.cntRight <= 14))
+        {
+            totalScore.text += " C";
+        }
+        else if ((gameMg.cntRight >= 1) && (gameMg.cntRight <= 9))
+        {
+            totalScore.text += " D";
+        }
+        else if ((gameMg.cntRight == 0))
+        {
+            totalScore.text += " F";
+        }
 
 
     }
