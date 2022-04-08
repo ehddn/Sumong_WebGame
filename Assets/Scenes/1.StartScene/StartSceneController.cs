@@ -50,13 +50,13 @@ public class StartSceneController : MonoBehaviour, IPointerClickHandler
         {
             userNameBox.gameObject.SetActive(true);
             //userPhoneNumBox.gameObject.SetActive(true);
-            text[1].text = "호오.. 자네의 이름은 " + userNameBox.text + " 이군. 그렇다면 자네의 전화번호는 무엇인가?" + "\n\n" + "(게임을 모두 이수 할 경우 인증서 발급되며 인증서를 캡처 후 커뮤니케이션팀 이메일(smupr.seoul@gmail.com)로 캡처한 이미지를 보내 주시면 추첨을 통해 경품을 드립니다. 개인정보 수집에 동의 하시면 성함과 핸드폰 번호를 기입해주세요!)";
+            text[1].text = "호오.. 자네의 이름은 " + userNameBox.text + " 이군. 그렇다면 자네의 전화번호는 무엇인가?" + "\n\n" + "(게임을 모두 이수할 경우 인증서가 발급되며 인증서 캡처 후 이메일(smupr.seoul@gmail.com)로 보내주세요!"+ "\n"+"추첨을 통해 경품을 드립니다. 개인 정보 수집에 동의하시면 연락처를 기입해주세요.)";
 
 
         }
         else if(clickCnt==4)
         {
-            text[1].text= "호오.. 자네의 이름은 "+userNameBox.text+ " 이군. 그렇다면 자네의 전화번호는 무엇인가?"+"\n\n"+"(게임을 모두 이수 할 경우 인증서 발급되며 인증서를 캡처 후 커뮤니케이션팀 이메일(smupr.seoul@gmail.com)로 캡처한 이미지를 보내 주시면 추첨을 통해 경품을 드립니다. 개인정보 수집에 동의 하시면 성함과 핸드폰 번호를 기입해주세요!)";
+            text[1].text= "호오.. 자네의 이름은 "+userNameBox.text+ " 이군. 그렇다면 자네의 전화번호는 무엇인가?"+"\n\n"+ "(게임을 모두 이수할 경우 인증서가 발급되며 인증서 캡처 후 이메일(smupr.seoul@gmail.com)로 보내주세요!"+ "\n"+"추첨을 통해 경품을 드립니다. 개인 정보 수집에 동의하시면 연락처를 기입해주세요.)";
             //col = StartCoroutine(Typing(textBox, message, speed, 1));
             textBox.text = text[1].text;
             DeleteBox();

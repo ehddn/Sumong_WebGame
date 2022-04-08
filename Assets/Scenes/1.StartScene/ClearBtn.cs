@@ -31,19 +31,22 @@ public class ClearBtn : MonoBehaviour
     }
     public void Onclick()
     {
-        if (gameMg.cntRight <= 24)
+        gameMg.turnAudio();
+        SceneManager.LoadScene("MoveToEasterEggAvoid");
+
+        /*if (gameMg.cntRight <= 24)
         {
             gameMg.turnAudio();
             SceneManager.LoadScene("MoveToEasterEggAvoid");
-        }
-        else
+        }*/
+        /*else
         {
             gameMg.turnAudio();
             SceneManager.LoadScene("MoveToEasterEggPuzzle");
             //SceneManager.LoadScene("Ending");
             //SceneManager.LoadScene("Ending");
-        }
-        
+        }*/
+
     }
     // Update is called once per frame
     void Update()

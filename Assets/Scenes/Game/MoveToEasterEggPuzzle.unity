@@ -363,8 +363,7 @@ MonoBehaviour:
   - {fileID: 8203824698382056683, guid: a022ad860e41bc5438c2ad2557bb21c8, type: 3}
   clickCnt: 0
   nextClick: 2
-  nextScene: Puzzle_Campus
-  speed: 0.05
+  nextScene: Puzzle_Sumung1
   campus: 
 --- !u!114 &541795746
 MonoBehaviour:

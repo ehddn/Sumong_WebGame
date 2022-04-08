@@ -43,7 +43,10 @@ public class Certification : MonoBehaviour
         score.text = score.text + gameMg.cntRight;
         avoid.text += gameMg.findAvoid;
         puzzle.text += gameMg.findPuzzle;
-        if ((gameMg.findPuzzle == "O")&&(gameMg.cntRight==31))
+        totalScore.text += gameMg.score;
+
+
+        /*if ((gameMg.findPuzzle == "O")&&(gameMg.cntRight==31))
         {
             totalScore.text += " A+";
         }
@@ -70,7 +73,7 @@ public class Certification : MonoBehaviour
         else if ((gameMg.cntRight==0))
         {
             totalScore.text += " F";
-        }
+        }*/
 
 
 

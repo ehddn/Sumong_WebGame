@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
     public string findPuzzle;
     public string score;
 
+    public bool findEasterEgg;
+
     
     void Awake() //���� �ٲ� �ı����� ����
     {

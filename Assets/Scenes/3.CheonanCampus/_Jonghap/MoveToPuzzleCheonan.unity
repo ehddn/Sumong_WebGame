@@ -406,8 +406,7 @@ MonoBehaviour:
   - {fileID: 7748635869623695121, guid: 17e81e5fb010e2b4195838c10a3b36f6, type: 3}
   clickCnt: 0
   nextClick: 2
-  nextScene: Puzzle_sumung1
-  speed: 0.05
+  nextScene: Puzzle_Deer
   campus: Cheonan
 --- !u!114 &1158182231
 MonoBehaviour:
