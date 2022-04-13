@@ -327,7 +327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalScale.z
@@ -351,15 +351,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -367,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -800
+      value: -720
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -803,6 +803,7 @@ MonoBehaviour:
   findAvoid: 
   findPuzzle: 
   score: 
+  findEasterEgg: 0
 --- !u!4 &440018194
 Transform:
   m_ObjectHideFlags: 0

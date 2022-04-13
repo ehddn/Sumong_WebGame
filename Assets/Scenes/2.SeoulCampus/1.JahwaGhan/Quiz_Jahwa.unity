@@ -1578,6 +1578,7 @@ MonoBehaviour:
   findAvoid: 
   findPuzzle: 
   score: 
+  findEasterEgg: 0
 --- !u!4 &1630810600
 Transform:
   m_ObjectHideFlags: 0
@@ -1859,7 +1860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -737
+      value: -680
       objectReference: {fileID: 0}
     - target: {fileID: 89332077975309778, guid: ca1d785d866b3dc4f981f7276244ef7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
