@@ -1570,11 +1570,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[2]
-      value: "\uBB34\uB300\uBBF8\uC220\uD559\uACFC"
+      value: "\uBB34\uB300\uBBF8\uC220\uC804\uACF5"
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[3]
-      value: "\uBB34\uB300\uBBF8\uC220\uD559\uACFC"
+      value: "\uBB34\uB300\uBBF8\uC220\uC804\uACF5"
       objectReference: {fileID: 0}
     - target: {fileID: 7020039902533128557, guid: 18fca6d523906004fbe37cbf4652c6df, type: 3}
       propertyPath: text.Array.data[4]
