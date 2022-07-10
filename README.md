@@ -28,4 +28,4 @@
   + ### 시연 영상
     + #### [플레이 링크](https://smugame.smu.ac.kr/team_brain/index.html)
     + #### [유튜브 링크](https://youtu.be/SF2FJB1Xeug)
-    + #### [![Video Label](https://user-images.githubusercontent.com/69952837/178147577-0ba07b58-8d36-4bb7-b306-3291cb117f06.PNG)](https://youtu.be/SF2FJB1Xeug)
+    + #### [![Video Label](https://user-images.githubusercontent.com/69952837/178149966-abc8378e-7447-489b-8d7b-26dc16068c77.PNG)](https://youtu.be/SF2FJB1Xeug)
