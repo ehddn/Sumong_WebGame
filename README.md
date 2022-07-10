@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/69952837/178147543-b337c977-cfa6-4089-8d81-00681b3180d2.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/69952837/178149935-77777199-ca53-42ff-b2fe-9455d6ea6a6c.png"></p>
 
 <div align="center">
   <H1>수뭉이의 학교탐방</H1>
