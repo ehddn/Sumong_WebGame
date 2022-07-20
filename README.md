@@ -13,7 +13,7 @@
     + <img alt="Unity" src ="https://img.shields.io/badge/Unity-FFFFFF.svg?&style=for-the-badge&logo=Unity&logoColor=black"/><img alt="C#" src ="https://img.shields.io/badge/C Sharp-239120.svg?&style=for-the-badge&logo=CSharp&logoColor=white"/><img alt="WebGL" src ="https://img.shields.io/badge/WebGL(빌드)-990000.svg?&style=for-the-badge&logo=WebGL&logoColor=white"/>
 + ## **개발 개요**
   + ### 개발 기간
-    + #### 2022-03-14 ~ 2020-04-20
+    + #### 2022-03-14 ~ 2022-04-20
   + ### 개발 형태
     + #### 팀 프로젝트
   + ### 개발 인원 및 역할
